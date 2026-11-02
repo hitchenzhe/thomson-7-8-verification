@@ -1,6 +1,6 @@
 # Independent verification for the seven- and eight-point Thomson manuscript
 
-This repository accompanies *Contact configurations and rigidity in the seven- and eight-point Thomson problems* by Zhe Chen and Zhicheng Tong.
+This repository accompanies *Contact configurations and rigidity in the seven- and eight-point Thomson problems* by Zhe Chen, Zhicheng Tong and Zhaoyang Wang.
 
 It contains independently transcribed exact algebra checks, finite graph enumeration, rigorous rational interval arithmetic, high-precision interpolation checks, five-point moment checks, and seeded numerical minimization experiments.
 

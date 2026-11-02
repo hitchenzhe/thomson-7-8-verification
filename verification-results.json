@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "source": null,
-  "source_sha256": null,
-  "verifier_sha256": "25a4e74fec75323b8bb264ae3dec13b2ced175c56bb1986766b826a10569130e",
+  "source": "Thomson-26-10.30.tex",
+  "source_sha256": "d6ea2dd5c0c0e6d62b12449a1b6cee95dfbbbbaeb6e41cd116909c4b6804b11c",
+  "verifier_sha256": "7971a11a8d671b82ef6ff0c9e8c822c861104aa40d81854753a1afff5db91b07",
   "versions": {
     "python": "3.12.14",
     "numpy": "2.5.4",
@@ -11,8 +11,14 @@
     "mpmath": "1.3.0"
   },
   "precision_digits": 90,
-  "elapsed_seconds": 58.880590200424194,
+  "elapsed_seconds": 61.96634769439697,
   "checks": [
+    {
+      "name": "Source manuscript matches the audited version",
+      "passed": true,
+      "kind": "SHA-256 version guard",
+      "evidence": "d6ea2dd5c0c0e6d62b12449a1b6cee95dfbbbbaeb6e41cd116909c4b6804b11c"
+    },
     {
       "name": "N7 basic contact identities",
       "passed": true,

@@ -1,4 +1,4 @@
-[INFO] No manuscript source supplied: checking transcribed formulas; source-version guard skipped.
+[PASS] Source manuscript matches the audited version
 [PASS] N7 basic contact identities
 [PASS] N7 S intersect (-S) is {0}
 [PASS] N7 exhaustive integer row multiplicities
@@ -106,4 +106,4 @@
 [PASS] N7 seeded multistart found no energy below candidate
 [PASS] N8 optimization gradient independent finite difference
 [PASS] N8 seeded multistart found no energy below candidate
-Saved verification-results.json; status=passed; checks=107
+Saved verification-results.json; status=passed; checks=108

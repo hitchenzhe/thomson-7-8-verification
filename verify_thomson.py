@@ -24,7 +24,7 @@ from sympy.polys.matrices import DomainMatrix
 
 CHECKS = []
 DETAILS = {}
-EXPECTED_SOURCE_SHA256 = 'a84a0473549b40a5177abca67cbfdbcd5b16f73685a0536d0cefd031733f6046'
+EXPECTED_SOURCE_SHA256 = 'd6ea2dd5c0c0e6d62b12449a1b6cee95dfbbbbaeb6e41cd116909c4b6804b11c'
 
 
 def check(name, condition, evidence=None, kind="exact"):
