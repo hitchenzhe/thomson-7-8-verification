@@ -1,0 +1,5419 @@
+{
+  "status": "passed",
+  "source": null,
+  "source_sha256": null,
+  "verifier_sha256": "25a4e74fec75323b8bb264ae3dec13b2ced175c56bb1986766b826a10569130e",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "precision_digits": 90,
+  "elapsed_seconds": 58.880590200424194,
+  "checks": [
+    {
+      "name": "N7 basic contact identities",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N7 S intersect (-S) is {0}",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N7 exhaustive integer row multiplicities",
+      "passed": true,
+      "kind": "exact finite enumeration",
+      "evidence": [
+        [
+          0,
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          5,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "N7 3x3 Gram determinant factorization",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N7 PSD forces mutual neighbor contact a",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N7 vector recurrence has zero squared residual",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N7 recurrence closes only at length 5 among 3..7",
+      "passed": true,
+      "kind": "exact",
+      "evidence": [
+        5
+      ]
+    },
+    {
+      "name": "N7 full degree-0/2 graph enumeration leaves C5 plus two poles",
+      "passed": true,
+      "kind": "exact finite enumeration",
+      "evidence": {
+        "graphs_enumerated": 1348,
+        "surviving_labelled_graphs": 252
+      }
+    },
+    {
+      "name": "N7 recovered Gram matrix is PSD, rank 3",
+      "passed": true,
+      "kind": "exact",
+      "evidence": "characteristic polynomial = z^4 (z-2) (z-5/2)^2"
+    },
+    {
+      "name": "N7 candidate energy equals paper's radical expression",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N7 pair contact multiplicities",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "Coulomb derivative formula order 1",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "Coulomb derivative formula order 2",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "Coulomb derivative formula order 3",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "Coulomb derivative formula order 4",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "Coulomb derivative formula order 5",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "Coulomb derivative formula order 6",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "Coulomb derivative formula order 7",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "Coulomb derivative formula order 8",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "Coulomb derivative formula order 9",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N7 exact Hermite interpolation: all eight value/derivative equations",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N7 omega has rational coefficients and endpoint second derivative 1/8",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N7 enhanced polynomial matches f''(-1) exactly",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N7 gamma has a strictly positive rational enclosure",
+      "passed": true,
+      "kind": "rigorous rational interval arithmetic",
+      "evidence": {
+        "decimal": "0.0122637946030898454645611679506295390671818005",
+        "lower": "47905447668319708845942062307146636981178908025871224132806739428633849521396024960161126898680609676989728315483149461374696271/3906250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "upper": "47905447668319708845942062307146636981178908025871224132806761416278677526371676548756980923166670898516110119264135585353524197/3906250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "name": "N7 90-digit minorant grid and near-contact checks",
+      "passed": true,
+      "kind": "numerical sampling, not interval proof",
+      "evidence": {
+        "points": 2461,
+        "min_f_minus_H": "3.69266046436e-58",
+        "min_H_minus_h": "3.6596505526e-40"
+      }
+    },
+    {
+      "name": "N7 increasing gamma violates the endpoint bound",
+      "passed": true,
+      "kind": "90-digit numerical check",
+      "evidence": "-6.24999543234008e-22"
+    },
+    {
+      "name": "N7 exact ninth-order Hermite remainder product",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N8 elimination rational-function identity",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N8 elimination degree and leading coefficient",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N8 polynomial reduction modulo 23",
+      "passed": true,
+      "kind": "exact",
+      "evidence": [
+        1,
+        8,
+        22,
+        9,
+        17,
+        7,
+        20,
+        17,
+        14,
+        6,
+        22,
+        7,
+        18
+      ]
+    },
+    {
+      "name": "N8 all 23 residue values match the manuscript and are nonzero",
+      "passed": true,
+      "kind": "exact",
+      "evidence": [
+        18,
+        7,
+        18,
+        9,
+        20,
+        8,
+        2,
+        19,
+        1,
+        21,
+        15,
+        2,
+        3,
+        6,
+        13,
+        8,
+        9,
+        17,
+        6,
+        13,
+        6,
+        18,
+        14
+      ]
+    },
+    {
+      "name": "N8 unique integer row counts",
+      "passed": true,
+      "kind": "exact finite enumeration",
+      "evidence": [
+        [
+          2,
+          1,
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "N8 sixth moment polynomial",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N8 sixth moment derivative rational bound",
+      "passed": true,
+      "kind": "exact",
+      "evidence": "33046048032/213623046875"
+    },
+    {
+      "name": "N8 weighted contact moment 1",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N8 weighted contact moment 3",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N8 algebraic inequalities factorizations",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N8 six rational endpoint comparisons",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N8 stationary parameter interval",
+      "passed": true,
+      "kind": "90-digit numerical check",
+      "evidence": "0.31408936788920186738123326196077157222562056269711713136760743324"
+    },
+    {
+      "name": "N8 f^(8)(-1)/8! equals 6435/16777216",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N8 enhanced Hermite minorant sampled on 2000 points",
+      "passed": true,
+      "kind": "90-digit numerical sampling, not interval proof",
+      "evidence": "2.86899470492688e-12"
+    },
+    {
+      "name": "N8 circulant Gram eigenvalue identity",
+      "passed": true,
+      "kind": "exact",
+      "evidence": null
+    },
+    {
+      "name": "N8 explicit coordinates, circulant Gram and rank",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": [
+        -2.440993367669861e-16,
+        -1.5726024665397616e-16,
+        2.0105685922021907e-17,
+        2.1471272869240452e-16,
+        7.774295706559692e-16,
+        2.512714943113614,
+        2.7436425284431927,
+        2.7436425284431927
+      ]
+    },
+    {
+      "name": "N7 candidate all sampled 4x4 Gram determinants vanish",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "injections": 2520,
+        "max_abs": 4.0168246381865057e-16
+      }
+    },
+    {
+      "name": "N7 candidate edge moment normalization r=0",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 candidate edge moment normalization r=1",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 candidate edge moment normalization r=2",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 candidate edge moment normalization r=3",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 candidate edge moment normalization r=4",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 candidate edge moment normalization r=5",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 candidate edge moment normalization r=6",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 candidate edge moment normalization r=7",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 candidate edge moment normalization r=8",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 candidate F_0: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 35,
+        "max_abs_difference": 3.1086244689504383e-15,
+        "min_eigenvalue": -6.387826032894974e-16
+      }
+    },
+    {
+      "name": "N7 candidate F_1: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 20,
+        "max_abs_difference": 5.551115123125783e-16,
+        "min_eigenvalue": 2.2597268430342114e-16
+      }
+    },
+    {
+      "name": "N7 candidate F_2: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 20,
+        "max_abs_difference": 6.661338147750939e-15,
+        "min_eigenvalue": 0.0005579733844053379
+      }
+    },
+    {
+      "name": "N7 candidate F_3: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 10,
+        "max_abs_difference": 8.881784197001252e-16,
+        "min_eigenvalue": 0.007231827011851787
+      }
+    },
+    {
+      "name": "N7 candidate F_4: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 10,
+        "max_abs_difference": 1.7763568394002505e-15,
+        "min_eigenvalue": 0.02160207861805066
+      }
+    },
+    {
+      "name": "N7 candidate F_5: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 4,
+        "max_abs_difference": 3.552713678800501e-15,
+        "min_eigenvalue": 0.4046245509153718
+      }
+    },
+    {
+      "name": "N7 candidate F_6: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 4,
+        "max_abs_difference": 1.7763568394002505e-15,
+        "min_eigenvalue": 0.4826176274842202
+      }
+    },
+    {
+      "name": "N7 candidate F_7: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 1,
+        "max_abs_difference": 4.440892098500626e-15,
+        "min_eigenvalue": 3.611328124999995
+      }
+    },
+    {
+      "name": "N7 candidate F_8: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 1,
+        "max_abs_difference": 0.0,
+        "min_eigenvalue": 5.2394147600446415
+      }
+    },
+    {
+      "name": "N7 candidate selected monomial compressions of M,D,T are PSD",
+      "passed": true,
+      "kind": "floating-point numerical check; compressed bases only",
+      "evidence": [
+        0.0012635773963223795,
+        0.0004544495162312193,
+        1.2197268320726863e-16
+      ]
+    },
+    {
+      "name": "N7 random configuration all sampled 4x4 Gram determinants vanish",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "injections": 2520,
+        "max_abs": 2.1470045099236967e-16
+      }
+    },
+    {
+      "name": "N7 random configuration edge moment normalization r=0",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 random configuration edge moment normalization r=1",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 random configuration edge moment normalization r=2",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 random configuration edge moment normalization r=3",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 random configuration edge moment normalization r=4",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 random configuration edge moment normalization r=5",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 random configuration edge moment normalization r=6",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 random configuration edge moment normalization r=7",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 random configuration edge moment normalization r=8",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N7 random configuration F_0: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 35,
+        "max_abs_difference": 3.552713678800501e-15,
+        "min_eigenvalue": 0.002194429667613903
+      }
+    },
+    {
+      "name": "N7 random configuration F_1: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 20,
+        "max_abs_difference": 2.6645352591003757e-15,
+        "min_eigenvalue": 0.029078332600640605
+      }
+    },
+    {
+      "name": "N7 random configuration F_2: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 20,
+        "max_abs_difference": 3.552713678800501e-15,
+        "min_eigenvalue": 0.027091750227269527
+      }
+    },
+    {
+      "name": "N7 random configuration F_3: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 10,
+        "max_abs_difference": 7.993605777301127e-15,
+        "min_eigenvalue": 0.15981928799258077
+      }
+    },
+    {
+      "name": "N7 random configuration F_4: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 10,
+        "max_abs_difference": 1.9984014443252818e-15,
+        "min_eigenvalue": 0.13715561244208668
+      }
+    },
+    {
+      "name": "N7 random configuration F_5: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 4,
+        "max_abs_difference": 3.1086244689504383e-15,
+        "min_eigenvalue": 1.061648968073417
+      }
+    },
+    {
+      "name": "N7 random configuration F_6: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 4,
+        "max_abs_difference": 3.552713678800501e-15,
+        "min_eigenvalue": 1.0460233030582682
+      }
+    },
+    {
+      "name": "N7 random configuration F_7: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 1,
+        "max_abs_difference": 1.2878587085651816e-14,
+        "min_eigenvalue": 3.7331560108305077
+      }
+    },
+    {
+      "name": "N7 random configuration F_8: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 1,
+        "max_abs_difference": 1.1102230246251565e-14,
+        "min_eigenvalue": 3.422803850088751
+      }
+    },
+    {
+      "name": "N7 random configuration selected monomial compressions of M,D,T are PSD",
+      "passed": true,
+      "kind": "floating-point numerical check; compressed bases only",
+      "evidence": [
+        0.0147451700069595,
+        0.0029830649816491315,
+        0.012554690197584588
+      ]
+    },
+    {
+      "name": "N8 candidate all sampled 4x4 Gram determinants vanish",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "injections": 6720,
+        "max_abs": 3.8248102708785747e-16
+      }
+    },
+    {
+      "name": "N8 candidate edge moment normalization r=0",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N8 candidate edge moment normalization r=1",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N8 candidate edge moment normalization r=2",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N8 candidate edge moment normalization r=3",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N8 candidate edge moment normalization r=4",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N8 candidate edge moment normalization r=5",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N8 candidate edge moment normalization r=6",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N8 candidate edge moment normalization r=7",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N8 candidate edge moment normalization r=8",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": null
+    },
+    {
+      "name": "N8 candidate F_0: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 35,
+        "max_abs_difference": 6.661338147750939e-15,
+        "min_eigenvalue": -9.297779179245686e-16
+      }
+    },
+    {
+      "name": "N8 candidate F_1: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 20,
+        "max_abs_difference": 4.440892098500626e-15,
+        "min_eigenvalue": 0.0006245197083746763
+      }
+    },
+    {
+      "name": "N8 candidate F_2: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 20,
+        "max_abs_difference": 4.884981308350689e-15,
+        "min_eigenvalue": 0.00042020823943116027
+      }
+    },
+    {
+      "name": "N8 candidate F_3: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 10,
+        "max_abs_difference": 2.1094237467877974e-15,
+        "min_eigenvalue": 0.029234277314731365
+      }
+    },
+    {
+      "name": "N8 candidate F_4: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 10,
+        "max_abs_difference": 5.329070518200751e-15,
+        "min_eigenvalue": 0.019349396810125343
+      }
+    },
+    {
+      "name": "N8 candidate F_5: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 4,
+        "max_abs_difference": 8.881784197001252e-15,
+        "min_eigenvalue": 0.6922189663998343
+      }
+    },
+    {
+      "name": "N8 candidate F_6: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 4,
+        "max_abs_difference": 1.7763568394002505e-15,
+        "min_eigenvalue": 0.59488464419545
+      }
+    },
+    {
+      "name": "N8 candidate F_7: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 1,
+        "max_abs_difference": 1.3322676295501878e-14,
+        "min_eigenvalue": 3.825159248484221
+      }
+    },
+    {
+      "name": "N8 candidate F_8: full matrix expansion and PSD",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "dimension": 1,
+        "max_abs_difference": 4.440892098500626e-16,
+        "min_eigenvalue": 2.8307634624895366
+      }
+    },
+    {
+      "name": "N8 candidate selected monomial compressions of M,D,T are PSD",
+      "passed": true,
+      "kind": "floating-point numerical check; compressed bases only",
+      "evidence": [
+        0.0010840415746032309,
+        0.0008278850977233652,
+        0.00013872082979966144
+      ]
+    },
+    {
+      "name": "N7 optimization gradient independent finite difference",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "analytic": 1.374969334394275,
+        "finite_difference": 1.374969333056697
+      }
+    },
+    {
+      "name": "N7 seeded multistart found no energy below candidate",
+      "passed": true,
+      "kind": "heuristic numerical experiment, not a proof of global optimality",
+      "evidence": {
+        "starts": 64,
+        "seed": 20261102,
+        "best_energy": 14.45297741422134,
+        "candidate": 14.452977414221342,
+        "worst_energy": 14.452977414221344,
+        "near_candidate": 64
+      }
+    },
+    {
+      "name": "N8 optimization gradient independent finite difference",
+      "passed": true,
+      "kind": "floating-point numerical check",
+      "evidence": {
+        "analytic": 3.579860715059875,
+        "finite_difference": 3.579860713642802
+      }
+    },
+    {
+      "name": "N8 seeded multistart found no energy below candidate",
+      "passed": true,
+      "kind": "heuristic numerical experiment, not a proof of global optimality",
+      "evidence": {
+        "starts": 32,
+        "seed": 20261103,
+        "best_energy": 19.67528786123276,
+        "candidate": 19.67528786123276,
+        "worst_energy": 19.675287861232764,
+        "near_candidate": 32
+      }
+    }
+  ],
+  "details": {
+    "n7": {
+      "energy": "14.452977414221342935044491530602928790477856056925533682711777518",
+      "gamma": "0.012263794603089845464561167950629539067181800454623033377998526644",
+      "h7_base_coefficients": [
+        "0.707106781186547524400844362104849039284835937688474036588339869",
+        "0.3535533905932737622004221810524245196424179688442370182941699345",
+        "0.26368285336440282885782936701698136935416761471514945194692291684",
+        "0.22254576170780035367348324387044703525364831872681654993040778017",
+        "0.21112035194128667510791529782425187837211237830087110354987617525",
+        "0.1847480524021708866140740618322634936731073910160219640651241524",
+        "0.10447670424347892070581092216925648933428909770705341111427683959",
+        "0.025539486032470946584420462360203727776231349824472470909713933602"
+      ],
+      "h7_enhanced_coefficients": [
+        "0.707106781186547524400844362104849039284835937688474036588339869",
+        "0.3535533905932737622004221810524245196424179688442370182941699345",
+        "0.26444934052709594419936444001389571554586647724356339153304782475",
+        "0.22101278738241412299041309787661834287025059366998867075815796434",
+        "0.20268899315166240635102949485819407026342489048831776810250218818",
+        "0.18781400105294334798021435381992087843990284112967772240962378406",
+        "0.13820213940197599573335413403348772176903904895726675290377278786",
+        "0.062330869841740482978103966212092344977776751188341571043709513534",
+        "0.012263794603089845464561167950629539067181800454623033377998526644"
+      ],
+      "graph_count": 1348,
+      "surviving_labelled_graphs": 252
+    },
+    "n8": {
+      "t_star": "0.31408936788920186738123326196077157222562056269711713136760743324",
+      "energy": "19.67528786123276226440651817153476346844282163200371292727953278",
+      "contacts": [
+        "0.314089367889201867381233261960771572225620563",
+        "-0.371821264221596265237533476078456855548758875",
+        "0.17092269136429476589612168145725872556881922",
+        "-0.799101427142698500658588205378801870020060345"
+      ],
+      "qprime": "0.156237365302827641361105404838684979392371473"
+    },
+    "n7_multistart": [
+      {
+        "trial": 0,
+        "energy": 14.452977414221344,
+        "gap": 1.7763568394002505e-15,
+        "gradient_norm": 6.2039927432133775e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.12452621069899807,
+            0.5964670855408822,
+            -0.7929188096616921
+          ],
+          [
+            0.9620044018306022,
+            -0.26827960106685583,
+            -0.05073052838236351
+          ],
+          [
+            -0.9210997506848115,
+            -0.22760155515955793,
+            -0.31586829751864726
+          ],
+          [
+            0.06618511084227052,
+            -0.8023525899280884,
+            -0.5931693287236666
+          ],
+          [
+            -0.6354560679220345,
+            0.6616870680143102,
+            0.3979520194240659
+          ],
+          [
+            -0.12452620950487485,
+            -0.5964670856503004,
+            0.7929188097669176
+          ],
+          [
+            0.528366307456461,
+            0.6365466772116576,
+            0.5618161379629659
+          ]
+        ]
+      },
+      {
+        "trial": 1,
+        "energy": 14.452977414221344,
+        "gap": 1.7763568394002505e-15,
+        "gradient_norm": 1.4254548833075526e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.665893557125499,
+            -0.4207173440447648,
+            -0.6161028217746359
+          ],
+          [
+            0.6658935507181335,
+            0.4207173472828365,
+            0.6161028264886387
+          ],
+          [
+            -0.24623060484201265,
+            0.9034860578116433,
+            -0.350832485068177
+          ],
+          [
+            0.5936841397308783,
+            0.20128796862579262,
+            -0.7791163558278758
+          ],
+          [
+            -0.21473810537403623,
+            -0.6827879057676914,
+            0.6983467776382587
+          ],
+          [
+            -0.7458630219810207,
+            0.3570971266535219,
+            0.5622899559632362
+          ],
+          [
+            0.6131475938884142,
+            -0.7790832450314987,
+            -0.13068789316550267
+          ]
+        ]
+      },
+      {
+        "trial": 2,
+        "energy": 14.452977414221344,
+        "gap": 1.7763568394002505e-15,
+        "gradient_norm": 1.4932943581462625e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.11660753709820472,
+            -0.8427932412195884,
+            -0.5254543128060435
+          ],
+          [
+            0.054323026976345015,
+            0.24445974598536305,
+            -0.9681365819619147
+          ],
+          [
+            -0.9929918779948488,
+            -0.08868848022364847,
+            -0.07811199467356356
+          ],
+          [
+            -0.0830340708554061,
+            0.9938776726408218,
+            -0.07288700092089652
+          ],
+          [
+            0.99299187682673,
+            0.08868848839894806,
+            0.07811200024092418
+          ],
+          [
+            0.017744403231936462,
+            -0.7653346138865906,
+            0.6433879583431801
+          ],
+          [
+            -0.10564089322287704,
+            0.3697904374906883,
+            0.9230899382072789
+          ]
+        ]
+      },
+      {
+        "trial": 3,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 2.0675239220667486e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.061154098433162,
+            -0.779364766228435,
+            -0.6235789744743836
+          ],
+          [
+            -0.3028270245372533,
+            0.9410112785341034,
+            0.15097538501863783
+          ],
+          [
+            -0.5889338285589881,
+            0.26154955651449235,
+            -0.7646886785260553
+          ],
+          [
+            0.5511385053477532,
+            -0.7432234729569107,
+            0.3792956856713676
+          ],
+          [
+            0.40177644910466837,
+            0.3200274057311955,
+            0.857996587712215
+          ],
+          [
+            -0.7981315563842796,
+            -0.3369756581777578,
+            0.4994331031272101
+          ],
+          [
+            0.7981315572346702,
+            0.3369756655343917,
+            -0.4994330968045813
+          ]
+        ]
+      },
+      {
+        "trial": 4,
+        "energy": 14.452977414221344,
+        "gap": 1.7763568394002505e-15,
+        "gradient_norm": 7.3572542641771835e-09,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.7865505682892043,
+            -0.4541643290742594,
+            -0.4184172148949628
+          ],
+          [
+            0.3317973241631453,
+            -0.8108143302484488,
+            -0.4821728502746044
+          ],
+          [
+            0.9916125943303985,
+            -0.04694647384871894,
+            0.12041798602579255
+          ],
+          [
+            0.12646245333019326,
+            0.5447447510309609,
+            -0.8290117032478642
+          ],
+          [
+            0.2810529656271086,
+            0.7817998154054908,
+            0.5565952561279586
+          ],
+          [
+            -0.1264624547406132,
+            -0.5447447505451269,
+            0.8290117033519525
+          ],
+          [
+            -0.8179123132052618,
+            0.5301253152618374,
+            0.22357682801613254
+          ]
+        ]
+      },
+      {
+        "trial": 5,
+        "energy": 14.452977414221344,
+        "gap": 1.7763568394002505e-15,
+        "gradient_norm": 6.1131579189217554e-09,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.3616634567194699,
+            -0.6790141100689925,
+            0.6388578733966876
+          ],
+          [
+            0.3616634596294885,
+            0.6790141095828595,
+            -0.6388578722659882
+          ],
+          [
+            0.8785521941646508,
+            -0.018896477052408073,
+            0.47727242250467977
+          ],
+          [
+            -0.5273731537161126,
+            -0.4160774212753347,
+            -0.7407814362174509
+          ],
+          [
+            -0.8941541523416744,
+            0.44665257326536667,
+            -0.031461574111414085
+          ],
+          [
+            0.5682196074973158,
+            -0.7038025826712666,
+            -0.4263665116784518
+          ],
+          [
+            -0.025244497368615726,
+            0.6921239086555173,
+            0.7213370990182156
+          ]
+        ]
+      },
+      {
+        "trial": 6,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 4.069457608934319e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.28767182263084,
+            0.6347002428810051,
+            0.7172172084878077
+          ],
+          [
+            -0.7511297720172979,
+            -0.3150851727369156,
+            0.5801080929538823
+          ],
+          [
+            0.9569265546006775,
+            -0.15983433613914047,
+            -0.2423727585580458
+          ],
+          [
+            0.2584269471254192,
+            0.6696528564775206,
+            -0.6962618507508027
+          ],
+          [
+            -0.2876718240834756,
+            -0.6347002426142573,
+            -0.717217208141222
+          ],
+          [
+            -0.7972099175954555,
+            0.5737025619240274,
+            -0.18794072929850741
+          ],
+          [
+            0.3329861882275202,
+            -0.7684359087742959,
+            0.5464672474686186
+          ]
+        ]
+      },
+      {
+        "trial": 7,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 1.86153990675366e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.9397307198478332,
+            0.13554289314204077,
+            0.3139017334978557
+          ],
+          [
+            0.24466938854769274,
+            -0.7727579576632317,
+            0.5856466760563482
+          ],
+          [
+            -0.33851855923111646,
+            0.4979178857351633,
+            0.7984253027811142
+          ],
+          [
+            -0.7885167333153282,
+            -0.6131335629905292,
+            0.04804784299281375
+          ],
+          [
+            -0.7319995353090041,
+            0.39382058275601284,
+            -0.5559514627241454
+          ],
+          [
+            0.33611616060818544,
+            0.856528043459837,
+            -0.39164478465169933
+          ],
+          [
+            0.33851856033344757,
+            -0.49791789032547284,
+            -0.7984252994511136
+          ]
+        ]
+      },
+      {
+        "trial": 8,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 2.2834972311965308e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.32054946605835605,
+            -0.8416301482898184,
+            0.4346340222524706
+          ],
+          [
+            0.9373242386814169,
+            0.21564319815967972,
+            -0.27371752349414397
+          ],
+          [
+            -0.6779944599883153,
+            0.11657284123998712,
+            0.725764620872628
+          ],
+          [
+            0.4196043664264437,
+            0.5375369227721415,
+            0.7314275304721031
+          ],
+          [
+            -0.32054947364445174,
+            0.841630143961103,
+            -0.43463402503977744
+          ],
+          [
+            -0.8386280002726251,
+            -0.46549090952824124,
+            -0.28288034626906966
+          ],
+          [
+            0.15969385373468536,
+            -0.4042620555017843,
+            -0.9005942835488338
+          ]
+        ]
+      },
+      {
+        "trial": 9,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 4.170651717484782e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.8366690928534511,
+            -0.08880858410734405,
+            -0.5404607890056706
+          ],
+          [
+            0.5286302385394515,
+            -0.12723651822250692,
+            0.839262139818267
+          ],
+          [
+            -0.8366690925562423,
+            0.08880858465856072,
+            0.5404607893751937
+          ],
+          [
+            -0.34344120215219653,
+            0.6836028616898596,
+            -0.6439994317960915
+          ],
+          [
+            -0.5119004935812049,
+            -0.47772984843945465,
+            -0.7139552342978757
+          ],
+          [
+            0.02706929988844481,
+            -0.9788561457954676,
+            0.20275082944834472
+          ],
+          [
+            0.2996421589777728,
+            0.9002196518347816,
+            0.315941695592088
+          ]
+        ]
+      },
+      {
+        "trial": 10,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 1.095425479745507e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.4635958902639219,
+            -0.8048396932267822,
+            0.37055622884660944
+          ],
+          [
+            -0.5565516857914897,
+            -0.06090584277341708,
+            -0.8285775156005084
+          ],
+          [
+            0.7803003237409752,
+            0.30412478424709516,
+            -0.546479203974302
+          ],
+          [
+            0.5565516890625294,
+            0.06090584422236498,
+            0.828577513296859
+          ],
+          [
+            0.5124384085770253,
+            -0.810173755549424,
+            -0.2846495445877051
+          ],
+          [
+            -0.030186361310847915,
+            0.9981332009322753,
+            -0.05309328382668739
+          ],
+          [
+            -0.7989564820151566,
+            0.3127554632052273,
+            0.5136658058322049
+          ]
+        ]
+      },
+      {
+        "trial": 11,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 2.915908567161501e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.5892395807062499,
+            -0.05824322169763358,
+            -0.8058563418224138
+          ],
+          [
+            -0.7180019788294584,
+            -0.6696255067068752,
+            0.18993377573391892
+          ],
+          [
+            0.35383189082910815,
+            0.6336292156911022,
+            -0.6879803849347571
+          ],
+          [
+            -0.5790237566999975,
+            0.7260587925582153,
+            0.3709044606444208
+          ],
+          [
+            0.8079197140627663,
+            0.4498476150925399,
+            0.38066108131025406
+          ],
+          [
+            0.14548995370127635,
+            -0.3556081014737568,
+            0.923241870550849
+          ],
+          [
+            0.5790237558009981,
+            -0.7260587930525921,
+            -0.3709044610800998
+          ]
+        ]
+      },
+      {
+        "trial": 12,
+        "energy": 14.452977414221344,
+        "gap": 1.7763568394002505e-15,
+        "gradient_norm": 7.881152401193001e-09,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.8564128986509857,
+            0.31488618519545014,
+            -0.4091498960005651
+          ],
+          [
+            -0.016140697353616413,
+            0.7757617078111516,
+            0.6308195071356498
+          ],
+          [
+            0.22613627740596487,
+            0.6173865588274479,
+            -0.7534561838754624
+          ],
+          [
+            0.38953237269018093,
+            -0.5761762445565175,
+            0.7185300730206817
+          ],
+          [
+            -0.7554285563054629,
+            -0.4227762063002997,
+            0.5005876303950895
+          ],
+          [
+            0.9961728030960681,
+            0.06667970424219027,
+            -0.05651162193652185
+          ],
+          [
+            0.016140697151285133,
+            -0.7757617054336996,
+            -0.6308195100645417
+          ]
+        ]
+      },
+      {
+        "trial": 13,
+        "energy": 14.452977414221344,
+        "gap": 1.7763568394002505e-15,
+        "gradient_norm": 2.557368246777733e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.8930638716032632,
+            -0.14103358800438,
+            -0.42725454742062285
+          ],
+          [
+            -0.7002559234300344,
+            0.10309680077670538,
+            0.7064083035828203
+          ],
+          [
+            0.05843892470598575,
+            -0.9779179744553559,
+            0.2006522547003698
+          ],
+          [
+            0.46028191012057634,
+            0.20475091773111745,
+            0.8638388882795326
+          ],
+          [
+            -0.058438924301126,
+            0.9779179744836805,
+            -0.20065225468023695
+          ],
+          [
+            0.14831209655370337,
+            -0.1902603530492733,
+            -0.9704661354593528
+          ],
+          [
+            0.9847257884254096,
+            0.0234462211549524,
+            -0.17252650904573688
+          ]
+        ]
+      },
+      {
+        "trial": 14,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 6.213453730301772e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.44735784607248086,
+            -0.4297909950687124,
+            0.7843154072917582
+          ],
+          [
+            0.5349373831188188,
+            0.831385409261926,
+            0.15046693127850372
+          ],
+          [
+            -0.8540613086025146,
+            -0.4655592785970478,
+            0.23202120433347576
+          ],
+          [
+            -0.011485557037751873,
+            -0.879650574828863,
+            -0.4754818063635909
+          ],
+          [
+            -0.44735784322867533,
+            0.4297909980759728,
+            -0.7843154072658824
+          ],
+          [
+            0.8469628084654183,
+            -0.0780946421715812,
+            -0.5258851851311879
+          ],
+          [
+            -0.5163533266385992,
+            0.591919082180215,
+            0.6188788590832489
+          ]
+        ]
+      },
+      {
+        "trial": 15,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 6.10882304156204e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.5355798600824077,
+            -0.060285449263154586,
+            -0.8423300291935745
+          ],
+          [
+            -0.8075326928027982,
+            0.25526569152325945,
+            -0.5317239667212807
+          ],
+          [
+            -0.5785191771477589,
+            -0.5184347518899233,
+            0.6297149908530952
+          ],
+          [
+            0.8075326933307457,
+            -0.2552656914688971,
+            0.5317239659455814
+          ],
+          [
+            -0.2880672548196135,
+            0.6159786632192343,
+            0.7332036164390741
+          ],
+          [
+            -0.06947727100955728,
+            -0.9363889574067649,
+            -0.3440183559924329
+          ],
+          [
+            0.4004838447179315,
+            0.8991304953083642,
+            -0.1765702198177241
+          ]
+        ]
+      },
+      {
+        "trial": 16,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 5.090552193920857e-10,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.9589676663988791,
+            -0.22248310699038842,
+            0.1757335537266325
+          ],
+          [
+            -0.5659758785449014,
+            0.645651068422278,
+            -0.5126460794256577
+          ],
+          [
+            -0.026698733365888086,
+            -0.7831531890266434,
+            0.621255390442655
+          ],
+          [
+            0.0006230277635252789,
+            -0.6214898445436731,
+            -0.783421971204208
+          ],
+          [
+            0.9424669416986391,
+            -0.26153218632103753,
+            0.208223388031586
+          ],
+          [
+            0.6091753365904699,
+            0.6215174138809684,
+            -0.49256625293720735
+          ],
+          [
+            -0.0006230275090340626,
+            0.6214898446537794,
+            0.7834219711170628
+          ]
+        ]
+      },
+      {
+        "trial": 17,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 1.2354237809812869e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.8661696977807846,
+            -0.49254296546149795,
+            -0.0845664343622106
+          ],
+          [
+            -0.4477822648844045,
+            0.8811507883615182,
+            -0.15186945520699058
+          ],
+          [
+            0.2540349615927053,
+            0.28822101919767584,
+            0.923252339494055
+          ],
+          [
+            -0.953709746757519,
+            -0.08419952913155287,
+            0.2887008109336272
+          ],
+          [
+            -0.2540349648313059,
+            -0.2882210158710976,
+            -0.9232523396414383
+          ],
+          [
+            0.6769650920495094,
+            0.6287806693880742,
+            -0.38256128130050543
+          ],
+          [
+            -0.14164277592813534,
+            -0.9331889604288188,
+            0.3302963641355326
+          ]
+        ]
+      },
+      {
+        "trial": 18,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 2.6968102619884227e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.6039882351136423,
+            0.3092818154775366,
+            0.734535887795298
+          ],
+          [
+            0.34750660919099235,
+            0.2248362637778614,
+            -0.9103229158155862
+          ],
+          [
+            0.6297668655859046,
+            -0.7252647449604844,
+            -0.2781811365414785
+          ],
+          [
+            -0.759965707656649,
+            -0.5011493870708013,
+            -0.41388575117354415
+          ],
+          [
+            0.7599657056256776,
+            0.5011493785340324,
+            0.4138857652394189
+          ],
+          [
+            0.04171066228331941,
+            -0.673074556988005,
+            0.7383974955180224
+          ],
+          [
+            -0.41499591305891326,
+            0.8642212322007625,
+            -0.28442934791929414
+          ]
+        ]
+      },
+      {
+        "trial": 19,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 2.1200050064605036e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.511401499164091,
+            -0.7629282446278615,
+            -0.39548577749619535
+          ],
+          [
+            0.8657108375964654,
+            0.3570854960459473,
+            -0.3507630171235933
+          ],
+          [
+            -0.4298685107818244,
+            0.17138370705312161,
+            -0.8864765582884561
+          ],
+          [
+            -0.8511022300257921,
+            0.2508246128247556,
+            0.4612071201168028
+          ],
+          [
+            0.023637222600262117,
+            0.9836192179609982,
+            0.17870231046503024
+          ],
+          [
+            0.4298685104883654,
+            -0.17138370717098889,
+            0.8864765584079721
+          ],
+          [
+            -0.5496473292267585,
+            -0.8286010820172979,
+            0.10633936408336583
+          ]
+        ]
+      },
+      {
+        "trial": 20,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 2.474979778777564e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.21931695829990136,
+            0.3656982175837367,
+            0.9045246737696864
+          ],
+          [
+            -0.2193169588634244,
+            -0.3656982174620658,
+            -0.9045246736822421
+          ],
+          [
+            -0.8562554854331291,
+            0.5165510976315136,
+            -0.001227681291938749
+          ],
+          [
+            -0.7093896740574703,
+            -0.5767181368231047,
+            0.40516969407881775
+          ],
+          [
+            0.1801946820024846,
+            0.895964272113708,
+            -0.40592844156794067
+          ],
+          [
+            0.9676219254447165,
+            0.03718527832668687,
+            -0.24964988378612565
+          ],
+          [
+            0.41782855326668544,
+            -0.8729825120955467,
+            0.2516363122651766
+          ]
+        ]
+      },
+      {
+        "trial": 21,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 3.3151729606830505e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.0694659805922219,
+            0.48596983175904906,
+            -0.8712105372184398
+          ],
+          [
+            -0.30503946162390505,
+            -0.6520559946864912,
+            -0.6940993492617672
+          ],
+          [
+            0.9519827605399859,
+            -0.22873219811582512,
+            -0.20349546722168288
+          ],
+          [
+            -0.9519827600110888,
+            0.22873218858729435,
+            0.20349548040616527
+          ],
+          [
+            0.2621070504654946,
+            0.9524018839563188,
+            0.15566163796110236
+          ],
+          [
+            0.23145708986570307,
+            0.1026468922833413,
+            0.9674147151327976
+          ],
+          [
+            -0.11905869944787821,
+            -0.8889626158719078,
+            0.4422335284303473
+          ]
+        ]
+      },
+      {
+        "trial": 22,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 6.29633855583145e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.024864340103348946,
+            -0.9174745924733324,
+            0.39701654468940933
+          ],
+          [
+            0.024864336086094518,
+            0.9174745910700938,
+            -0.3970165481837778
+          ],
+          [
+            -0.8647624466963706,
+            0.218992370822384,
+            0.4519162005342346
+          ],
+          [
+            0.9944201582869321,
+            0.018028110128177607,
+            0.10394005983161206
+          ],
+          [
+            0.2097905842886692,
+            0.3835072149103002,
+            0.8993943111091839
+          ],
+          [
+            0.4047948721910003,
+            -0.37236524841300817,
+            -0.8351558137390835
+          ],
+          [
+            -0.7442431677289193,
+            -0.2481624471952072,
+            -0.6200947565420221
+          ]
+        ]
+      },
+      {
+        "trial": 23,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 6.199277478475701e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.9492182600271234,
+            -0.19086586000098862,
+            0.2501098125167489
+          ],
+          [
+            -0.8336717352070977,
+            0.4708396781756537,
+            0.2886198804175375
+          ],
+          [
+            -0.7021956265190367,
+            -0.162012086436692,
+            -0.6933061271516122
+          ],
+          [
+            -0.2940688640921758,
+            -0.8208317102134189,
+            0.48965171977605804
+          ],
+          [
+            0.18695812948127458,
+            0.45300696445745253,
+            0.8716830547704293
+          ],
+          [
+            0.39969096056481945,
+            -0.5709686814467861,
+            -0.7171066174912143
+          ],
+          [
+            0.29406883264417905,
+            0.820831716434933,
+            -0.48965172823321224
+          ]
+        ]
+      },
+      {
+        "trial": 24,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 1.840286009497143e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.775059971731049,
+            -0.3656548361827667,
+            0.5153431681864229
+          ],
+          [
+            0.4671305658969409,
+            -0.2176513082897989,
+            -0.8569812964146549
+          ],
+          [
+            -0.8771536962089622,
+            -0.23609202315080252,
+            -0.4181649792026068
+          ],
+          [
+            -0.16519111726725924,
+            -0.973646869782141,
+            0.1572376155359563
+          ],
+          [
+            -0.4671305664797051,
+            0.21765130777841007,
+            0.8569812962268767
+          ],
+          [
+            -0.376919681025222,
+            0.8277339756761097,
+            -0.4156777833457862
+          ],
+          [
+            0.6442045229459589,
+            0.7476597532421836,
+            0.16126197939318046
+          ]
+        ]
+      },
+      {
+        "trial": 25,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 2.608668468090458e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.6435678598610356,
+            -0.6908233776994668,
+            0.32952006096410336
+          ],
+          [
+            -0.08693837867044951,
+            -0.7030109239865051,
+            -0.7058451381640266
+          ],
+          [
+            0.5898369854128748,
+            0.2563387329082405,
+            -0.7657563480964752
+          ],
+          [
+            0.45147768356286305,
+            0.8614369735751486,
+            0.23258168845031654
+          ],
+          [
+            -0.3108084304031501,
+            0.2760585949013792,
+            0.909499737092544
+          ],
+          [
+            0.7562857871794233,
+            -0.5077586625507147,
+            0.4125687199911181
+          ],
+          [
+            -0.7562857869026233,
+            0.5077586619639414,
+            -0.4125687212206809
+          ]
+        ]
+      },
+      {
+        "trial": 26,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 5.96216297968066e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.25767664182652733,
+            -0.26865963947844895,
+            0.9281297034209783
+          ],
+          [
+            -0.25767664331641194,
+            0.2686596400532779,
+            -0.9281297028409498
+          ],
+          [
+            0.9403395895158055,
+            -0.15115122721137061,
+            -0.3048192298752541
+          ],
+          [
+            -0.6301562481653208,
+            0.6814451394762945,
+            0.3722037409569392
+          ],
+          [
+            -0.891345168914822,
+            -0.43687731633279897,
+            0.12100413350815399
+          ],
+          [
+            0.5018871907532219,
+            0.8580335724280063,
+            0.10903043769641745
+          ],
+          [
+            0.07927463498626383,
+            -0.951450167961062,
+            -0.2974190816586281
+          ]
+        ]
+      },
+      {
+        "trial": 27,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 1.3478461821662442e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.7020476978506006,
+            -0.6889847272851534,
+            -0.18008074719545902
+          ],
+          [
+            -0.9864863321046354,
+            0.1556666276600432,
+            0.051113771174630986
+          ],
+          [
+            0.8941207168183689,
+            0.43711083173646026,
+            0.09737691992903623
+          ],
+          [
+            -0.14945070380262956,
+            0.959134078587442,
+            0.24026299428983497
+          ],
+          [
+            -0.012222233185306828,
+            0.24118143082488108,
+            -0.9704030783345791
+          ],
+          [
+            -0.4602313762157406,
+            -0.8629268122708219,
+            -0.20867294268947095
+          ],
+          [
+            0.012222234021809017,
+            -0.2411814328100475,
+            0.9704030778306553
+          ]
+        ]
+      },
+      {
+        "trial": 28,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 1.0905532112791756e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.8949598554301489,
+            -0.056353084441519624,
+            0.4425733691066083
+          ],
+          [
+            0.4795632866701689,
+            0.31848544429622144,
+            -0.8176711293971091
+          ],
+          [
+            0.16141077744360385,
+            0.8838957796311723,
+            0.43894739055523896
+          ],
+          [
+            0.11901016129217348,
+            -0.4589671534293093,
+            0.8804463263494304
+          ],
+          [
+            -0.672125773274574,
+            0.42413902484323734,
+            -0.606920944197087
+          ],
+          [
+            0.9685121790124902,
+            -0.2273042252428247,
+            0.10157237956864813
+          ],
+          [
+            -0.16141077446718669,
+            -0.883895780305058,
+            -0.43894739029274993
+          ]
+        ]
+      },
+      {
+        "trial": 29,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 2.1184138223571247e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.4445813412842158,
+            -0.6777304635146841,
+            0.5856866481371239
+          ],
+          [
+            -0.7747544632070552,
+            -0.03721836513138883,
+            -0.6311658379837225
+          ],
+          [
+            0.7747544649962994,
+            0.03721837192658388,
+            0.631165835386733
+          ],
+          [
+            -0.5649388362620956,
+            0.4889951517027649,
+            0.6646261000698206
+          ],
+          [
+            0.09542993182723607,
+            0.9799460820729212,
+            -0.17492513924928202
+          ],
+          [
+            0.6239177950239498,
+            0.11664483709183945,
+            -0.7727357679260556
+          ],
+          [
+            0.290172450221616,
+            -0.9078556086571075,
+            -0.3026518510801098
+          ]
+        ]
+      },
+      {
+        "trial": 30,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 1.8771432314108456e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.79392605785495,
+            0.607634677500652,
+            0.02148286195034269
+          ],
+          [
+            0.09057966413034801,
+            0.15314078422099325,
+            -0.9840443204725143
+          ],
+          [
+            0.2801132597820107,
+            0.33417490827559315,
+            0.8999242703546199
+          ],
+          [
+            -0.54381243094972,
+            -0.6938471512030878,
+            -0.4720637358576862
+          ],
+          [
+            0.5997937547957197,
+            0.7884933509625699,
+            -0.1361091003418561
+          ],
+          [
+            -0.42667424836894713,
+            -0.5819618927131829,
+            0.6922928868683281
+          ],
+          [
+            0.7939260582702802,
+            -0.6076346769514891,
+            -0.02148286213416285
+          ]
+        ]
+      },
+      {
+        "trial": 31,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 3.1611268763893014e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.15341270971204707,
+            -0.9815564166260742,
+            -0.11406814401482827
+          ],
+          [
+            0.15341268831861116,
+            0.981556419332748,
+            0.11406814949639156
+          ],
+          [
+            -0.7333124744536966,
+            0.19046111601912405,
+            -0.6526694248203654
+          ],
+          [
+            0.40333329532696816,
+            0.043182033257898746,
+            -0.9140336782003179
+          ],
+          [
+            -0.8565453569547163,
+            0.07452921513214113,
+            0.5106617741432237
+          ],
+          [
+            0.9825861894476469,
+            -0.16377297096952692,
+            0.08776556435509103
+          ],
+          [
+            0.2039383548145619,
+            -0.1443993937132353,
+            0.9682757678114123
+          ]
+        ]
+      },
+      {
+        "trial": 32,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 7.744376851170912e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.22917715610498895,
+            -0.4035489294269332,
+            0.8857912240917751
+          ],
+          [
+            0.7561111045032195,
+            0.3086746772336627,
+            -0.5770753341476447
+          ],
+          [
+            0.852597041141865,
+            -0.15350978665933737,
+            0.49951279346573496
+          ],
+          [
+            -0.9942363134584428,
+            -0.09589715493169479,
+            0.04793629811084278
+          ],
+          [
+            -0.06897616785277311,
+            0.9144565925459115,
+            0.398762371115514
+          ],
+          [
+            -0.3852946783025342,
+            0.344281190965057,
+            -0.8561649796735606
+          ],
+          [
+            0.06897616705381406,
+            -0.9144565922362908,
+            -0.398762371963748
+          ]
+        ]
+      },
+      {
+        "trial": 33,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 1.0550738982098616e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.47342503107844114,
+            -0.44690460029475787,
+            -0.7590421715450069
+          ],
+          [
+            -0.7877772129895239,
+            0.17068136438883996,
+            -0.591840294796512
+          ],
+          [
+            -0.6182008508825572,
+            -0.7824250606666817,
+            0.07509149358497207
+          ],
+          [
+            0.40570808349583126,
+            -0.654246653861462,
+            0.6382493767307729
+          ],
+          [
+            0.8689422270212929,
+            0.3780784001252465,
+            0.31936832882740585
+          ],
+          [
+            -0.473425030565046,
+            0.4469046009730108,
+            0.7590421714658805
+          ],
+          [
+            0.13132775275516045,
+            0.8879119497068648,
+            -0.440868904464846
+          ]
+        ]
+      },
+      {
+        "trial": 34,
+        "energy": 14.452977414221344,
+        "gap": 1.7763568394002505e-15,
+        "gradient_norm": 1.321310612419195e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.5096362561334681,
+            -0.4974702493343076,
+            0.7019930465905799
+          ],
+          [
+            0.5047824795462091,
+            0.8336044339875344,
+            0.22427281596195114
+          ],
+          [
+            0.0011638733340312648,
+            -0.8155016714766125,
+            -0.5787535479093959
+          ],
+          [
+            -0.5096362563948377,
+            0.4974702487477138,
+            -0.7019930468165215
+          ],
+          [
+            -0.8179190766493055,
+            -0.5332986410457817,
+            0.21587251680533545
+          ],
+          [
+            -0.5066656598478888,
+            0.485904982964202,
+            0.7121701037402945
+          ],
+          [
+            0.8186383835679463,
+            0.029290896714642446,
+            -0.5735618888305885
+          ]
+        ]
+      },
+      {
+        "trial": 35,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 1.8531709213118704e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.9890294643503756,
+            0.1260381174718485,
+            -0.07703967543390607
+          ],
+          [
+            0.4065879495289127,
+            -0.8827250129104196,
+            -0.23554785263333203
+          ],
+          [
+            -0.7377443123229315,
+            -0.6715921353962238,
+            -0.06853709440226735
+          ],
+          [
+            0.20466589072759717,
+            0.9606208151275463,
+            0.18793488956648785
+          ],
+          [
+            0.10272028172811185,
+            -0.21201735539909788,
+            0.9718524500824546
+          ],
+          [
+            -0.1027202841510773,
+            0.21201734866264918,
+            -0.9718524512959683
+          ],
+          [
+            -0.8625389957122817,
+            0.4676582124917858,
+            0.1931897439426751
+          ]
+        ]
+      },
+      {
+        "trial": 36,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 8.08355114754599e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.993516564681001,
+            -0.011092087471700568,
+            0.11314504540625003
+          ],
+          [
+            0.37192485988440793,
+            0.8088873467410251,
+            -0.4553824314597877
+          ],
+          [
+            0.24210214561656213,
+            -0.815742636004304,
+            0.5253099112834314
+          ],
+          [
+            -0.8438892114124789,
+            -0.4930645830739774,
+            0.2115143394186535
+          ],
+          [
+            -0.7636543591618024,
+            0.5110119620441758,
+            -0.3945868654440222
+          ],
+          [
+            -0.09092041330666947,
+            0.5199601035180028,
+            0.8493379593505122
+          ],
+          [
+            0.09092041122501594,
+            -0.5199601014868259,
+            -0.8493379608168257
+          ]
+        ]
+      },
+      {
+        "trial": 37,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 6.176401872432896e-10,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.9276940958307159,
+            0.2959383192454008,
+            0.22760530697467835
+          ],
+          [
+            -0.07897144742939205,
+            0.030296825698296264,
+            0.9964163852745066
+          ],
+          [
+            0.8788870568147016,
+            -0.27721385218674943,
+            0.38821388630415393
+          ],
+          [
+            -0.4943750349641685,
+            0.15260311416354175,
+            -0.8557485695879172
+          ],
+          [
+            -0.3028022702814793,
+            -0.9530403940006639,
+            0.00497920831473965
+          ],
+          [
+            0.3028022702142353,
+            0.9530403940222965,
+            -0.004979208263474908
+          ],
+          [
+            0.6221535213644346,
+            -0.20162440704142257,
+            -0.7564870087047292
+          ]
+        ]
+      },
+      {
+        "trial": 38,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 4.714586225552979e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.6769497740252867,
+            0.4051375068241494,
+            -0.6144937786596588
+          ],
+          [
+            -0.6525966006450861,
+            0.7164693223046565,
+            -0.24655503852646016
+          ],
+          [
+            0.6525966005048941,
+            -0.7164693225398262,
+            0.24655503821414373
+          ],
+          [
+            -0.3475951493851656,
+            0.006053012837080605,
+            0.937625177328072
+          ],
+          [
+            0.5329069907820184,
+            0.6653202192082501,
+            0.5228375895900557
+          ],
+          [
+            -0.11452900555006001,
+            -0.4149314885651904,
+            -0.9026156251056092
+          ],
+          [
+            -0.7477326101429629,
+            -0.6615792485763767,
+            0.05664663786941275
+          ]
+        ]
+      },
+      {
+        "trial": 39,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 3.910536774153238e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.13048584352839776,
+            0.2014718216933738,
+            0.9707639000819075
+          ],
+          [
+            -0.34829540136282305,
+            0.9341647173794256,
+            0.07763114190147913
+          ],
+          [
+            0.9370767114871614,
+            0.34486151374314034,
+            0.05438541281627551
+          ],
+          [
+            -0.08477246872426904,
+            0.37587376286447066,
+            -0.9227852095349689
+          ],
+          [
+            0.2676506466483904,
+            -0.8096483091825485,
+            0.5223339418289211
+          ],
+          [
+            -0.9370767134834824,
+            -0.34486151025891265,
+            -0.054385400512797236
+          ],
+          [
+            0.29590303971554605,
+            -0.7018619944623047,
+            -0.647943772110278
+          ]
+        ]
+      },
+      {
+        "trial": 40,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 1.330595163836382e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.56207303602018,
+            -0.24781880967312442,
+            -0.78908791636373
+          ],
+          [
+            0.611607080361655,
+            0.517723261332252,
+            -0.5982469422629662
+          ],
+          [
+            0.781997259761769,
+            -0.28083020358735633,
+            0.5564303033428071
+          ],
+          [
+            0.1274560491359858,
+            0.6818094929543627,
+            0.7203407324703776
+          ],
+          [
+            0.35584482957308555,
+            -0.8553721097797732,
+            -0.3764478862698013
+          ],
+          [
+            -0.7032251041378106,
+            0.7022116322721217,
+            -0.11123523008511246
+          ],
+          [
+            -0.611607079006776,
+            -0.5177232593823666,
+            0.5982469453355342
+          ]
+        ]
+      },
+      {
+        "trial": 41,
+        "energy": 14.452977414221344,
+        "gap": 1.7763568394002505e-15,
+        "gradient_norm": 3.6621626120277174e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.11321342655478227,
+            0.31379146094737714,
+            0.9427182182838283
+          ],
+          [
+            -0.5170081267769333,
+            -0.6206368476661076,
+            -0.5895019085343856
+          ],
+          [
+            0.7233233063759579,
+            0.6904200395252414,
+            0.011115910908076572
+          ],
+          [
+            -0.6533535471928859,
+            -0.4964862653551189,
+            0.5715159933756884
+          ],
+          [
+            0.333824940658788,
+            0.11291161215692834,
+            -0.9358482124972404
+          ],
+          [
+            -0.6806992757578475,
+            0.7156583963754163,
+            -0.15646582911329035
+          ],
+          [
+            0.6806992769948803,
+            -0.7156583953191319,
+            0.15646582856295632
+          ]
+        ]
+      },
+      {
+        "trial": 42,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 3.2253011716566708e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.14957718573401427,
+            0.9705805128671307,
+            0.18867997654883684
+          ],
+          [
+            -0.02774001828816579,
+            -0.18663228377458616,
+            0.9820381265706819
+          ],
+          [
+            0.6033860737903222,
+            0.061572160025406324,
+            -0.7950686228657912
+          ],
+          [
+            -0.9485591575993606,
+            0.08700643561980297,
+            0.3044099287065524
+          ],
+          [
+            -0.14957718666630118,
+            -0.9705805127789869,
+            -0.18867997626317762
+          ],
+          [
+            0.9314148836153994,
+            -0.20235152971882223,
+            0.30252301234809353
+          ],
+          [
+            -0.5585017815438057,
+            0.24040521716903546,
+            -0.7939024446179166
+          ]
+        ]
+      },
+      {
+        "trial": 43,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 2.694555152465228e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.17696944224805797,
+            0.4674089491094905,
+            0.8661470376343574
+          ],
+          [
+            0.9673256866549954,
+            0.07973760873842342,
+            -0.24067182986406963
+          ],
+          [
+            0.4715907213610268,
+            -0.8127058526874985,
+            0.3422154124724257
+          ],
+          [
+            -0.6758666043508487,
+            -0.5820174600574145,
+            0.4521725437391897
+          ],
+          [
+            -0.8892992517034067,
+            0.45299927957167685,
+            -0.06275741890249131
+          ],
+          [
+            -0.17696944062395079,
+            -0.46740895340232785,
+            -0.8661470356495983
+          ],
+          [
+            0.12624943742958392,
+            0.8619864385425424,
+            -0.4909587144734851
+          ]
+        ]
+      },
+      {
+        "trial": 44,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 2.7644555379722393e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.7477606492975242,
+            -0.6622953331912419,
+            -0.04710523320446533
+          ],
+          [
+            -0.6529171951697587,
+            0.7463519858811852,
+            -0.12906529131748237
+          ],
+          [
+            0.6758593806102733,
+            0.497158876145383,
+            -0.5441021498863585
+          ],
+          [
+            -0.1163386875186775,
+            -0.2671964092146018,
+            -0.9565936382232817
+          ],
+          [
+            -0.3458028104505576,
+            -0.14212461477878682,
+            0.9274810025862941
+          ],
+          [
+            0.534042767527115,
+            0.5744574810868642,
+            0.6203200181159035
+          ],
+          [
+            0.6529171943755878,
+            -0.746351986288421,
+            0.12906529298010205
+          ]
+        ]
+      },
+      {
+        "trial": 45,
+        "energy": 14.452977414221344,
+        "gap": 1.7763568394002505e-15,
+        "gradient_norm": 2.23027212638793e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.6463162416179965,
+            0.08218477735956364,
+            0.7586309894745576
+          ],
+          [
+            0.09758001242054203,
+            -0.9771191408939797,
+            0.18898763365526863
+          ],
+          [
+            0.7499179944505711,
+            -0.11537481250358482,
+            0.6513920894814397
+          ],
+          [
+            -0.5237825759929352,
+            0.6751983959295471,
+            -0.519383229629502
+          ],
+          [
+            -0.6896102169569643,
+            -0.48851802951477125,
+            -0.5345913238236978
+          ],
+          [
+            0.6463162413288942,
+            -0.08218477698783873,
+            -0.7586309897611287
+          ],
+          [
+            0.3658947849948108,
+            0.9058135870063716,
+            0.21359483118336736
+          ]
+        ]
+      },
+      {
+        "trial": 46,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 6.411081595286308e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.3088929351709047,
+            -0.04846515934965591,
+            0.9498611914015203
+          ],
+          [
+            0.6575646987492838,
+            0.7384829315604782,
+            0.1491697916892226
+          ],
+          [
+            -0.46665834711790377,
+            -0.7684360622276977,
+            0.43787670106226945
+          ],
+          [
+            0.7451563612827631,
+            -0.608289497727623,
+            -0.2733603559298753
+          ],
+          [
+            -0.597303686200447,
+            -0.4264544191911661,
+            -0.6792384962615732
+          ],
+          [
+            0.09750439837181119,
+            0.5048727087054027,
+            -0.8576691904823334
+          ],
+          [
+            -0.7451563602248934,
+            0.6082894986409347,
+            0.27336035678120796
+          ]
+        ]
+      },
+      {
+        "trial": 47,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 1.768299069097793e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.5621850143918801,
+            0.6832359183397643,
+            0.4659792801011871
+          ],
+          [
+            0.6806931852265956,
+            0.33612160224649584,
+            -0.6509063343441359
+          ],
+          [
+            -0.1414934938786716,
+            -0.47550133993322496,
+            -0.8682615198842536
+          ],
+          [
+            -0.6322950122213541,
+            0.7182735140214445,
+            -0.2903208166413209
+          ],
+          [
+            -0.3332437391394858,
+            0.08614141918311444,
+            0.9388973672481211
+          ],
+          [
+            0.6322950121401409,
+            -0.7182735143725295,
+            0.2903208159495881
+          ],
+          [
+            -0.7681409659470138,
+            -0.6299976002072585,
+            0.11429120774182015
+          ]
+        ]
+      },
+      {
+        "trial": 48,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 2.0053835944565114e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.9334451319473982,
+            -0.1564044476574953,
+            -0.3228278711583903
+          ],
+          [
+            0.32343307873105215,
+            0.022278635130215343,
+            -0.9459887451758017
+          ],
+          [
+            -0.047609146834969716,
+            0.9459974389991103,
+            -0.3206590315970702
+          ],
+          [
+            0.24750181773988184,
+            -0.9322284808433854,
+            -0.26399414713187846
+          ],
+          [
+            0.9334451315903964,
+            0.15640444609273046,
+            0.3228278729487492
+          ],
+          [
+            -0.35285716534503064,
+            0.5623799361503312,
+            0.7478105564113274
+          ],
+          [
+            -0.17046859359899547,
+            -0.5984275245752423,
+            0.782831371642149
+          ]
+        ]
+      },
+      {
+        "trial": 49,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 3.875411021782981e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.2737002293298235,
+            -0.40181436665651116,
+            0.8738612013433419
+          ],
+          [
+            -0.14484714116883968,
+            0.775413417871133,
+            -0.6146164145876858
+          ],
+          [
+            -0.7326519122336265,
+            -0.5015385340700143,
+            -0.4600872464471405
+          ],
+          [
+            -0.6772238850777854,
+            0.6044959523584928,
+            0.41946686765744606
+          ],
+          [
+            0.5877034289149626,
+            -0.1252641048731754,
+            -0.7993207013908233
+          ],
+          [
+            0.5080678255485024,
+            -0.8528308989890725,
+            0.1206090476370112
+          ],
+          [
+            0.73265191425808,
+            0.5015385322448027,
+            0.46008724521301375
+          ]
+        ]
+      },
+      {
+        "trial": 50,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 4.813694099181402e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.5818568679814868,
+            -0.3700933179646376,
+            -0.7242054412807875
+          ],
+          [
+            0.46860782510377147,
+            0.1362658832102944,
+            -0.8728334980535701
+          ],
+          [
+            0.443416708469952,
+            -0.8908329658581431,
+            0.09898610806602033
+          ],
+          [
+            0.8714724250451911,
+            0.45431027774904553,
+            0.18476467172443684
+          ],
+          [
+            0.06999175700238555,
+            0.1445133020045287,
+            0.987024345948704
+          ],
+          [
+            -0.8282151399795591,
+            -0.3649961463372466,
+            0.42524992071439455
+          ],
+          [
+            -0.4434167079066963,
+            0.8908329660308002,
+            -0.09898610903533325
+          ]
+        ]
+      },
+      {
+        "trial": 51,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 5.008058304888419e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.79696882220611,
+            0.462347045070922,
+            -0.3886848419292841
+          ],
+          [
+            -0.6192029278883533,
+            0.2317407886842902,
+            0.7502559169739842
+          ],
+          [
+            0.45943925511812533,
+            0.8817619047586209,
+            0.10682468896725571
+          ],
+          [
+            -0.4594392656858201,
+            -0.8817618990321082,
+            -0.10682469078525189
+          ],
+          [
+            0.12664900204992674,
+            0.054005196501500055,
+            -0.9904763848929423
+          ],
+          [
+            0.41428045414275677,
+            -0.3191232051336099,
+            0.8523685149397079
+          ],
+          [
+            0.8752423105331495,
+            -0.42896980000978935,
+            -0.22346321516561826
+          ]
+        ]
+      },
+      {
+        "trial": 52,
+        "energy": 14.452977414221344,
+        "gap": 1.7763568394002505e-15,
+        "gradient_norm": 5.025026779157659e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.7641348238236682,
+            0.15029900708251878,
+            -0.6273023031122876
+          ],
+          [
+            0.2837477997181348,
+            0.6809816062433499,
+            -0.6750935032373993
+          ],
+          [
+            -0.3424774869796521,
+            0.729565587904365,
+            0.591982452322584
+          ],
+          [
+            0.2968955026223253,
+            -0.5137596605887692,
+            0.8049248857342836
+          ],
+          [
+            -0.7560090903755546,
+            -0.5880917150979149,
+            0.2873993561278789
+          ],
+          [
+            0.9395006120429609,
+            0.2705707611375788,
+            0.21007156682505373
+          ],
+          [
+            0.3424774877727584,
+            -0.7295655875794821,
+            -0.5919824522641405
+          ]
+        ]
+      },
+      {
+        "trial": 53,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 4.641173482594466e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.49906207454466217,
+            -0.6885443135025343,
+            -0.5261594569087413
+          ],
+          [
+            -0.020605355696726044,
+            0.5975767900699931,
+            -0.8015468790321966
+          ],
+          [
+            -0.4925407753838873,
+            -0.7249491757687836,
+            0.48151041228243496
+          ],
+          [
+            0.5258809504230425,
+            -0.24195040109680702,
+            0.8154196645845939
+          ],
+          [
+            -0.49906206749298593,
+            0.688544332492126,
+            0.5261594387470391
+          ],
+          [
+            -0.8302878470099333,
+            -0.20609288478504248,
+            -0.5178299083179617
+          ],
+          [
+            0.8175530195781396,
+            0.5754156805691181,
+            0.022446708753063854
+          ]
+        ]
+      },
+      {
+        "trial": 54,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 5.598538456677618e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.7705891509875263,
+            -0.3690140375767849,
+            -0.5196354495717191
+          ],
+          [
+            0.32557400775172757,
+            -0.4729985389917361,
+            0.8187026002085013
+          ],
+          [
+            0.6216913416380053,
+            0.6147406744099796,
+            0.4853800355992201
+          ],
+          [
+            -0.7705891400180606,
+            0.36901405806763354,
+            0.5196354512874224
+          ],
+          [
+            -0.5854422147743906,
+            -0.08760143822371999,
+            -0.8059673697992943
+          ],
+          [
+            0.058652399589133625,
+            0.8529291607444849,
+            -0.5187212572992795
+          ],
+          [
+            -0.4204755549581412,
+            -0.9070698432364276,
+            0.020605998487964253
+          ]
+        ]
+      },
+      {
+        "trial": 55,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 1.3297896169302594e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.17170153306190047,
+            0.9546732331558135,
+            -0.24314111425264714
+          ],
+          [
+            0.9846285072392045,
+            0.1125920529579683,
+            -0.1335280208143812
+          ],
+          [
+            -0.8785111232468404,
+            0.4774284560467394,
+            -0.016741436270566675
+          ],
+          [
+            -0.7146512699873275,
+            -0.6596062214749203,
+            0.23279431886770421
+          ],
+          [
+            -0.10525123668085243,
+            -0.2276170713703273,
+            -0.9680457871391965
+          ],
+          [
+            0.10525123493220781,
+            0.2276170740834605,
+            0.9680457866913784
+          ],
+          [
+            0.4368323499123037,
+            -0.8850875191453871,
+            0.16061625547608493
+          ]
+        ]
+      },
+      {
+        "trial": 56,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 2.539145561333569e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.33699797619282756,
+            -0.35909335899744993,
+            -0.8703357533537658
+          ],
+          [
+            -0.16138117333291985,
+            0.8886962408940142,
+            -0.42915627493319786
+          ],
+          [
+            0.8323031847123712,
+            0.5457500056532402,
+            0.09709963978889231
+          ],
+          [
+            -0.3369979765551279,
+            0.35909335817793625,
+            0.8703357535516061
+          ],
+          [
+            -0.4146526056094712,
+            -0.886536536825348,
+            0.20522228323209601
+          ],
+          [
+            0.6757728315161019,
+            -0.5514041893896161,
+            0.48916714945741235
+          ],
+          [
+            -0.9320422379004194,
+            0.0034944799960352014,
+            -0.3623327964442843
+          ]
+        ]
+      },
+      {
+        "trial": 57,
+        "energy": 14.452977414221342,
+        "gap": 0.0,
+        "gradient_norm": 1.044903873928384e-08,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.7980223312670299,
+            0.5446326722613288,
+            0.2579449768935586
+          ],
+          [
+            -0.5201334786682749,
+            0.8386585167613847,
+            -0.16159534842325585
+          ],
+          [
+            0.24191151063616778,
+            -0.6815508405988759,
+            0.6906281725362012
+          ],
+          [
+            0.12871243252727171,
+            0.26411391205544854,
+            -0.9558645046091414
+          ],
+          [
+            0.5996821190526458,
+            -0.6754271550548913,
+            -0.4291614082172165
+          ],
+          [
+            -0.7980223305929032,
+            -0.5446326712199814,
+            -0.2579449811778839
+          ],
+          [
+            -0.4501725822729332,
+            0.2542055722953493,
+            0.8559930917850407
+          ]
+        ]
+      },
+      {
+        "trial": 58,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 1.0220369437233567e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.583451546278259,
+            0.5540832972969911,
+            -0.5937810983872784
+          ],
+          [
+            0.8101457487891683,
+            0.2650005536913986,
+            0.5229135418614534
+          ],
+          [
+            -0.08275392672715781,
+            -0.3903039654057895,
+            0.9169594332355999
+          ],
+          [
+            -0.8612905250055031,
+            -0.506221607508097,
+            0.04379858020145558
+          ],
+          [
+            -0.4495528424180608,
+            0.07744172024672569,
+            -0.8898904549657054
+          ],
+          [
+            -0.47009821012982245,
+            0.8266006733681162,
+            0.30941719347850427
+          ],
+          [
+            0.47009821221727865,
+            -0.826600671203605,
+            -0.3094171960894679
+          ]
+        ]
+      },
+      {
+        "trial": 59,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 3.383844705173661e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.7560817661957906,
+            -0.634006631809856,
+            0.1624067537000094
+          ],
+          [
+            -0.6492016398072072,
+            0.09343574027338716,
+            -0.7548556109026396
+          ],
+          [
+            0.1819174086103144,
+            -0.4852733861391262,
+            0.8552285058097483
+          ],
+          [
+            0.4872569186801087,
+            -0.7109643693549196,
+            -0.5070605099059949
+          ],
+          [
+            -0.4872569186625556,
+            0.7109643687862586,
+            0.5070605107201985
+          ],
+          [
+            0.8685129088847765,
+            0.3340911838541258,
+            0.3661535306008295
+          ],
+          [
+            0.3548530883698043,
+            0.6917530931769597,
+            -0.6289331790854417
+          ]
+        ]
+      },
+      {
+        "trial": 60,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 8.438632087328553e-09,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.7198933457403275,
+            0.6661867482298219,
+            -0.19480448465518818
+          ],
+          [
+            0.16731560973844828,
+            0.8093089713161863,
+            0.5630492657707563
+          ],
+          [
+            -0.6122341857134903,
+            -0.39758293198126404,
+            -0.6834450336646841
+          ],
+          [
+            0.8233000994483565,
+            -0.166006280978593,
+            0.542788044197717
+          ],
+          [
+            -0.5601696127834468,
+            -0.3919236944973103,
+            0.7297984808189327
+          ],
+          [
+            0.560169610923824,
+            0.3919236961482968,
+            -0.7297984813596895
+          ],
+          [
+            0.34151182099838034,
+            -0.9119065053758807,
+            -0.22758778871354024
+          ]
+        ]
+      },
+      {
+        "trial": 61,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 1.6504318317821537e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.5446289541540422,
+            0.7554410169122429,
+            -0.36426387724240594
+          ],
+          [
+            -0.005949104845348868,
+            -0.43084069958536997,
+            -0.9024083885538343
+          ],
+          [
+            -0.6293096633609907,
+            0.702928192413917,
+            -0.3314533208615957
+          ],
+          [
+            0.9659088695289728,
+            -0.23603997729750492,
+            0.1063258429670564
+          ],
+          [
+            0.0523355541995238,
+            -0.9013217461854469,
+            0.42997685940041647
+          ],
+          [
+            -0.9335637168582248,
+            -0.3210074879817394,
+            0.159414488756542
+          ],
+          [
+            0.005949102179136465,
+            0.43084069553315857,
+            0.9024083905060759
+          ]
+        ]
+      },
+      {
+        "trial": 62,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 2.887316882278141e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.02956763284059144,
+            0.987344996291414,
+            0.1558063329473855
+          ],
+          [
+            0.2861138893776331,
+            0.14099245846773545,
+            -0.9477657774790286
+          ],
+          [
+            -0.286113888932261,
+            -0.14099245877916286,
+            0.9477657775671496
+          ],
+          [
+            0.539024327313835,
+            -0.8414529999489322,
+            0.03754495226804299
+          ],
+          [
+            0.9200011189025605,
+            0.23605821009323935,
+            0.31284894544430364
+          ],
+          [
+            -0.5868657628194225,
+            -0.7561047632643353,
+            -0.28964489189240117
+          ],
+          [
+            -0.9017273161916026,
+            0.3741545564679386,
+            -0.21655533959745613
+          ]
+        ]
+      },
+      {
+        "trial": 63,
+        "energy": 14.45297741422134,
+        "gap": -1.7763568394002505e-15,
+        "gradient_norm": 2.534416311796223e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.16818825116592842,
+            0.9736067922814382,
+            0.15428067342734503
+          ],
+          [
+            -0.16818825532285162,
+            -0.9736067910880496,
+            -0.15428067642672066
+          ],
+          [
+            -0.6422333556329496,
+            -0.01050766235047487,
+            0.7664371506812346
+          ],
+          [
+            0.5127671448787309,
+            -0.22007835028695746,
+            0.8298405719581837
+          ],
+          [
+            -0.909689183658125,
+            0.21358425694074262,
+            -0.35615636218167546
+          ],
+          [
+            0.959140878600911,
+            -0.12550821654169655,
+            -0.25356747144930686
+          ],
+          [
+            0.08001451690460769,
+            0.14250997411154925,
+            -0.9865538932887793
+          ]
+        ]
+      }
+    ],
+    "n8_multistart": [
+      {
+        "trial": 0,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 7.011026671861946e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.27659527658202093,
+            0.8633081431011146,
+            0.4221304336669184
+          ],
+          [
+            0.8046746065117042,
+            0.41313213462942616,
+            0.42640428817234927
+          ],
+          [
+            0.5557340455078656,
+            -0.8185798575825716,
+            0.14521255945529765
+          ],
+          [
+            -0.38699616653923136,
+            0.587382562048509,
+            -0.7107852649607117
+          ],
+          [
+            -0.9734124853711419,
+            -0.1819348383503302,
+            0.1391684156625194
+          ],
+          [
+            0.6942737142276885,
+            0.13720654928291012,
+            -0.7065114100751425
+          ],
+          [
+            -0.28690443882530464,
+            -0.6953661979018189,
+            -0.6589018848037281
+          ],
+          [
+            -0.13077399765455908,
+            -0.30514849691354257,
+            0.9432828612716606
+          ]
+        ]
+      },
+      {
+        "trial": 1,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 3.84871638720701e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.35429956224644005,
+            -0.24862601137503196,
+            0.9014748619122573
+          ],
+          [
+            -0.99854689149909,
+            -0.02071838030411823,
+            -0.049747906439149066
+          ],
+          [
+            0.32536002328947394,
+            0.6748068871299748,
+            0.6624020835769058
+          ],
+          [
+            -0.3188873034580216,
+            0.9027145167370624,
+            -0.28882068652616205
+          ],
+          [
+            -0.11895822124610432,
+            -0.16588922173802853,
+            -0.9789431585690326
+          ],
+          [
+            0.7921450883512425,
+            -0.4881992833405668,
+            0.3662889825626198
+          ],
+          [
+            -0.1439984703889757,
+            -0.9800099165469801,
+            -0.1372771065954417
+          ],
+          [
+            0.8171853369285733,
+            0.3259214107799393,
+            -0.47537707044424016
+          ]
+        ]
+      },
+      {
+        "trial": 2,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 3.707295310737832e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.15539814819780753,
+            -0.08512403027060154,
+            -0.9841774814570703
+          ],
+          [
+            0.641977192015084,
+            -0.23232766319226755,
+            0.7306771803252434
+          ],
+          [
+            -0.46879675081094835,
+            0.10933651602896158,
+            0.8765130533493191
+          ],
+          [
+            0.3097431252614606,
+            -0.9402697380774565,
+            -0.141251605332522
+          ],
+          [
+            0.314451772551784,
+            0.9160572531987529,
+            0.2489160332340951
+          ],
+          [
+            -0.7059089749486718,
+            0.6570596680679651,
+            -0.2645091901717798
+          ],
+          [
+            -0.8010308167059622,
+            -0.5986055589261721,
+            0.004584267669340069
+          ],
+          [
+            0.8649625998034263,
+            0.17387355333298185,
+            -0.47075225797935405
+          ]
+        ]
+      },
+      {
+        "trial": 3,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 2.9380099835853418e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.22009966294026473,
+            -0.28936608740413633,
+            -0.9315703976801772
+          ],
+          [
+            0.9155243254329307,
+            -0.23424197079703665,
+            -0.3270258531946628
+          ],
+          [
+            0.36022002086125243,
+            0.7804537546047527,
+            -0.5110122048386548
+          ],
+          [
+            -0.07216569107063658,
+            -0.9973393128440756,
+            -0.010315429608324392
+          ],
+          [
+            -0.857484572509652,
+            0.437657143439854,
+            -0.2705114280469615
+          ],
+          [
+            -0.7095506044657888,
+            -0.27031608458046763,
+            0.6507435394372496
+          ],
+          [
+            0.5694302465506409,
+            -0.22077158283760928,
+            0.7918390635253182
+          ],
+          [
+            0.014125937950015386,
+            0.7939241397749399,
+            0.6078527109091922
+          ]
+        ]
+      },
+      {
+        "trial": 4,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 1.5935291936558222e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.2885263181531619,
+            0.8900439669440311,
+            -0.3529508473421095
+          ],
+          [
+            -0.7098996172436052,
+            -0.4542548851278424,
+            0.5382332512720425
+          ],
+          [
+            -0.12993751876539314,
+            0.6808516155677736,
+            0.7208032455502997
+          ],
+          [
+            -0.8873476059203416,
+            0.37123628623441907,
+            -0.273491948785178
+          ],
+          [
+            0.05934560891200077,
+            -0.9839034063514944,
+            -0.16855914591854607
+          ],
+          [
+            -0.11810237328052309,
+            -0.15841223159037815,
+            -0.9802843436003987
+          ],
+          [
+            0.5394756767247358,
+            -0.2773768498149067,
+            0.7950019354750949
+          ],
+          [
+            0.957939515660391,
+            -0.06818449616392494,
+            -0.2787521458557893
+          ]
+        ]
+      },
+      {
+        "trial": 5,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 2.969387801084252e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.5056096504877875,
+            0.8627287624945551,
+            -0.007613389404904009
+          ],
+          [
+            0.618785396033852,
+            0.5655743853822467,
+            0.5451882686327015
+          ],
+          [
+            0.5434623998891387,
+            -0.6025906264668305,
+            0.5844083818709744
+          ],
+          [
+            0.4989567067109962,
+            -0.638997109108723,
+            -0.5854271085103694
+          ],
+          [
+            0.5742797048022593,
+            0.52916790151076,
+            -0.6246472225688102
+          ],
+          [
+            -0.5903413284172122,
+            0.01096809020791943,
+            -0.8070791887787667
+          ],
+          [
+            -0.6121324547551766,
+            -0.7893060382125625,
+            0.04785222958850089
+          ],
+          [
+            -0.5274007744133223,
+            0.062454633620538616,
+            0.8473180287752362
+          ]
+        ]
+      },
+      {
+        "trial": 6,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 1.854547451624324e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.8363121501599977,
+            -0.1547694482385812,
+            0.5259547560263019
+          ],
+          [
+            0.648511893422112,
+            0.5241831127536786,
+            -0.5519641187558587
+          ],
+          [
+            -0.5874685191831476,
+            -0.8091731833244323,
+            -0.01093153042189098
+          ],
+          [
+            -0.35825307306105375,
+            0.06144979430600469,
+            -0.9316000528242047
+          ],
+          [
+            0.5056248142836328,
+            -0.7494766868273564,
+            -0.42735025808220883
+          ],
+          [
+            -0.8973555239553861,
+            0.43975951839290184,
+            0.03694089345965477
+          ],
+          [
+            0.10940944277128717,
+            0.9024928369489936,
+            0.4165768273538912
+          ],
+          [
+            -0.25678118383201304,
+            -0.21446594429895713,
+            0.9423734834797648
+          ]
+        ]
+      },
+      {
+        "trial": 7,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 7.366946445967294e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.024590466018683733,
+            -0.008434194692524922,
+            0.9996620295584266
+          ],
+          [
+            0.8684913177589428,
+            -0.2984002312012243,
+            -0.39582841357890275
+          ],
+          [
+            0.042112370433698185,
+            0.6047446668662436,
+            -0.7953052471556383
+          ],
+          [
+            -0.9351941520700285,
+            -0.29791024172924613,
+            0.19147163185924607
+          ],
+          [
+            0.17743125025084389,
+            -0.9366736410436891,
+            0.3019282060496844
+          ],
+          [
+            0.7156505334992279,
+            0.6298392156501923,
+            0.3019054095762794
+          ],
+          [
+            -0.5546156472146895,
+            0.8097816203487356,
+            0.1914555071289604
+          ],
+          [
+            -0.3384661378123915,
+            -0.5029471958583911,
+            -0.7952891246160383
+          ]
+        ]
+      },
+      {
+        "trial": 8,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 7.79309505896291e-09,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.7547933010216897,
+            -0.013102355882256002,
+            -0.6558318389672124
+          ],
+          [
+            0.47576101560792455,
+            0.33131474185501797,
+            -0.8147895420642431
+          ],
+          [
+            0.328952153994676,
+            0.4487715537117621,
+            0.8308998573603162
+          ],
+          [
+            -0.16946861948042674,
+            0.9818463462292615,
+            -0.08519471466967583
+          ],
+          [
+            0.053889670034355984,
+            -0.8500384574880039,
+            -0.523956605316703
+          ],
+          [
+            -0.8586028426664088,
+            0.06995216097599716,
+            0.5078462894813253
+          ],
+          [
+            0.9741817984547652,
+            -0.20176004223108038,
+            0.10130502908716821
+          ],
+          [
+            -0.04991987653055229,
+            -0.7669839477654504,
+            0.6397215251945954
+          ]
+        ]
+      },
+      {
+        "trial": 9,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 3.9602299591486904e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.9497897704469477,
+            0.31243494362524815,
+            -0.016846303933580938
+          ],
+          [
+            -0.145409881487292,
+            0.9831185636041583,
+            -0.11105789599460386
+          ],
+          [
+            0.08936993164810446,
+            0.22304578038542708,
+            -0.970702629629419
+          ],
+          [
+            -0.13013072177315832,
+            -0.760160073907838,
+            0.6365710151171093
+          ],
+          [
+            -0.9090289820776298,
+            0.2246793504578204,
+            0.35097791842331044
+          ],
+          [
+            0.24381513052209397,
+            0.3135900551003057,
+            0.9177229753420592
+          ],
+          [
+            0.5758439218515192,
+            -0.7613151868003908,
+            -0.2979982617629631
+          ],
+          [
+            -0.6742491694383621,
+            -0.5353934321530491,
+            -0.5086668166089247
+          ]
+        ]
+      },
+      {
+        "trial": 10,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 4.7238925989977056e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.4835460283551655,
+            0.6176896405939837,
+            0.6201957323013604
+          ],
+          [
+            0.44749523163662913,
+            -0.038287969966116546,
+            0.8934663110707384
+          ],
+          [
+            -0.8952256420129946,
+            0.02274137737373908,
+            -0.44503244784798196
+          ],
+          [
+            0.123610694193069,
+            -0.22698724476087812,
+            -0.9660213180861863
+          ],
+          [
+            0.026264873212716987,
+            0.9204976513518092,
+            -0.38986437422637527
+          ],
+          [
+            0.4214655383459261,
+            -0.904951056730207,
+            -0.058569487872615095
+          ],
+          [
+            -0.5973707997995719,
+            -0.6552224393806164,
+            0.4624193794370368
+          ],
+          [
+            0.9573061337980688,
+            0.26452004324575373,
+            -0.11659379449121053
+          ]
+        ]
+      },
+      {
+        "trial": 11,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 4.779720895549799e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            0.19532332838251634,
+            0.3268189482003376,
+            0.9246827415318191
+          ],
+          [
+            -0.7023177153826031,
+            0.665453086058998,
+            0.2528280382281935
+          ],
+          [
+            0.9143357998642,
+            0.40494246582506954,
+            0.003412397720986028
+          ],
+          [
+            0.016694757391974433,
+            0.7435766072350576,
+            -0.6684423043527571
+          ],
+          [
+            0.5287190251709752,
+            -0.7746482735962894,
+            0.34695279885964586
+          ],
+          [
+            -0.6144276376384743,
+            -0.590439447886328,
+            0.5233162872352549
+          ],
+          [
+            0.40240955208301193,
+            -0.4799561061727158,
+            -0.779556725671631
+          ],
+          [
+            -0.7407371095349553,
+            -0.2957472803358413,
+            -0.6031932366429129
+          ]
+        ]
+      },
+      {
+        "trial": 12,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 2.073654779798761e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.37662161580261594,
+            -0.8797731995592019,
+            0.29009528753082403
+          ],
+          [
+            0.8980115077953755,
+            0.2971402807142287,
+            0.3244733971285556
+          ],
+          [
+            -0.061123538369465845,
+            0.9655458681219382,
+            0.2529527418508237
+          ],
+          [
+            -0.13633176831294697,
+            -0.09006674647775656,
+            0.9865605050515536
+          ],
+          [
+            -0.4668467949457609,
+            -0.7242114107559477,
+            -0.5075154210265442
+          ],
+          [
+            -0.2948329451320031,
+            0.5171378739403476,
+            -0.8035184837956415
+          ],
+          [
+            0.6643020892971803,
+            -0.15126772141779654,
+            -0.7319978214533628
+          ],
+          [
+            -0.9798001711243448,
+            0.06549505353229693,
+            0.1889497886410731
+          ]
+        ]
+      },
+      {
+        "trial": 13,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 8.858731080868765e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.06324075936968097,
+            -0.035682790034403666,
+            0.9973601881214764
+          ],
+          [
+            0.059520024859531825,
+            0.9758743799471801,
+            0.21006323144098213
+          ],
+          [
+            -0.9277858615045304,
+            0.3515080462557041,
+            0.1251218950056066
+          ],
+          [
+            0.4715578706748436,
+            0.45561516935170393,
+            -0.7550152263770749
+          ],
+          [
+            0.9262446830574854,
+            0.03793206190418001,
+            0.37500926093556153
+          ],
+          [
+            0.5194687500366921,
+            -0.7714404232549879,
+            -0.3674668571497051
+          ],
+          [
+            -0.4700166935871084,
+            -0.8450552747755911,
+            0.25488407232189436
+          ],
+          [
+            -0.5157480138391178,
+            -0.16875116611095453,
+            -0.8399565644467564
+          ]
+        ]
+      },
+      {
+        "trial": 14,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 2.1230360167200326e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.4216312047314025,
+            0.9042244028062877,
+            0.06786277747306269
+          ],
+          [
+            -0.8389976759563286,
+            -0.23888172908236247,
+            0.4888951004566318
+          ],
+          [
+            -0.6631552062401299,
+            0.09386552230516612,
+            -0.7425728490585883
+          ],
+          [
+            0.48122646948418585,
+            -0.12166075875589726,
+            -0.8681127489253486
+          ],
+          [
+            -0.20058089222166944,
+            -0.964292082835461,
+            -0.1729395404654684
+          ],
+          [
+            0.722750471453829,
+            0.6886981235393534,
+            -0.057677124119023974
+          ],
+          [
+            0.7794024107437024,
+            -0.5436819160812245,
+            0.31135487189564487
+          ],
+          [
+            0.14098562686864569,
+            0.18172843864244367,
+            0.9731895126875518
+          ]
+        ]
+      },
+      {
+        "trial": 15,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 1.3593490350697035e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.436440476825129,
+            0.07186670331049118,
+            0.8968583428523905
+          ],
+          [
+            -0.027740916441169616,
+            -0.8996168586389045,
+            0.4357980601238072
+          ],
+          [
+            0.916134330828252,
+            -0.32911535223018396,
+            -0.22886889872648183
+          ],
+          [
+            -0.4917989539290526,
+            0.6873801284400638,
+            0.5344551879624811
+          ],
+          [
+            -0.9559803482436742,
+            -0.2841034347920066,
+            0.0733949052134236
+          ],
+          [
+            -0.06845587643041079,
+            -0.5808242480058173,
+            -0.8111454776491213
+          ],
+          [
+            -0.39659446179079183,
+            0.5413520817973008,
+            -0.7413843513391694
+          ],
+          [
+            0.587995750546785,
+            0.7930609786972154,
+            -0.15910776664493184
+          ]
+        ]
+      },
+      {
+        "trial": 16,
+        "energy": 19.675287861232764,
+        "gap": 3.552713678800501e-15,
+        "gradient_norm": 1.8174094085103708e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.050613347490661646,
+            0.5458472102091358,
+            -0.8363546569265297
+          ],
+          [
+            -0.5378442204982056,
+            -0.14041243360274475,
+            0.83126887525423
+          ],
+          [
+            -0.2538666047033738,
+            0.8957697005314106,
+            0.36489504056132077
+          ],
+          [
+            -0.3509916497983092,
+            -0.9195356196077185,
+            -0.17680244920393656
+          ],
+          [
+            -0.9224127747690344,
+            0.08303643710192715,
+            -0.37717320034210877
+          ],
+          [
+            0.6220344739169175,
+            -0.45672484570568556,
+            -0.6359839059080202
+          ],
+          [
+            0.5542449023424747,
+            -0.5220812941932944,
+            0.6482620692905267
+          ],
+          [
+            0.8382225210876647,
+            0.5141008429751209,
+            0.18188823049804415
+          ]
+        ]
+      },
+      {
+        "trial": 17,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 8.741967769278738e-09,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.2754536673095457,
+            0.05941027252268695,
+            0.9594767827751238
+          ],
+          [
+            -0.9833209604269743,
+            0.1786740178027191,
+            0.033992413083018085
+          ],
+          [
+            0.8736582009788499,
+            0.2571438204682501,
+            0.41303559587206523
+          ],
+          [
+            -0.12741732579443682,
+            0.42580822256657647,
+            -0.8957969539365979
+          ],
+          [
+            0.010704349808477717,
+            0.9927470581605587,
+            0.11974429175845529
+          ],
+          [
+            0.7355365301385627,
+            -0.3097950122752164,
+            -0.6025056540822847
+          ],
+          [
+            -0.47078721100970367,
+            -0.742362316427145,
+            -0.4767154215028376
+          ],
+          [
+            0.23708008144424014,
+            -0.861626060420536,
+            0.4487689461032028
+          ]
+        ]
+      },
+      {
+        "trial": 18,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 5.3959559979149e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.5640995599970208,
+            0.4029385734118846,
+            0.7207164438723198
+          ],
+          [
+            -0.56857420476208,
+            0.11975305057197282,
+            0.8138688964187504
+          ],
+          [
+            -0.24937055771571187,
+            0.9626072284659624,
+            -0.10583784129333633
+          ],
+          [
+            0.698939232145226,
+            0.4458745386993365,
+            -0.5591778299502724
+          ],
+          [
+            0.045406421192528454,
+            -0.4713429579038681,
+            -0.8807803772501516
+          ],
+          [
+            -0.36013541237500335,
+            -0.8942028462460815,
+            0.2659017760732208
+          ],
+          [
+            -0.9029033571660727,
+            0.04538973861270311,
+            -0.42744040432194275
+          ],
+          [
+            0.7725383442395928,
+            -0.6110173270775132,
+            0.17274933484850136
+          ]
+        ]
+      },
+      {
+        "trial": 19,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 1.3091234323288272e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.7721743212081743,
+            0.23279997913297096,
+            -0.5912283715979668
+          ],
+          [
+            -0.4865910057392232,
+            0.17384101946015534,
+            -0.8561591517274958
+          ],
+          [
+            0.23563104606023158,
+            -0.7194477937766209,
+            0.6533550965306031
+          ],
+          [
+            0.26011344965976063,
+            -0.8177114420179281,
+            -0.5135065636377587
+          ],
+          [
+            -0.14182096660634969,
+            0.9861476586365825,
+            -0.08602097881579172
+          ],
+          [
+            -0.5212143637969786,
+            0.3128067983010012,
+            0.7940324262323217
+          ],
+          [
+            0.7476919073575863,
+            0.3310636341544542,
+            0.5756332876167086
+          ],
+          [
+            -0.8659843904455391,
+            -0.4994998498893886,
+            0.02389425590275225
+          ]
+        ]
+      },
+      {
+        "trial": 20,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 6.06103355483245e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.20782287085480453,
+            0.8816576797869788,
+            -0.4236618817197369
+          ],
+          [
+            -0.041821104143948504,
+            -0.27724672841492104,
+            -0.9598881428746809
+          ],
+          [
+            0.6217442243737092,
+            0.09821579507486082,
+            0.7770378221526593
+          ],
+          [
+            0.5447714230617181,
+            -0.8312237930556002,
+            -0.11086524466022339
+          ],
+          [
+            -0.3721002527778271,
+            -0.7026267512420667,
+            0.6065122012966401
+          ],
+          [
+            0.855286854230239,
+            0.39900489501591485,
+            -0.33057448590942545
+          ],
+          [
+            -0.9586927745607335,
+            -0.14864967790022546,
+            -0.24251069515632
+          ],
+          [
+            -0.44136549859186114,
+            0.5808685820665422,
+            0.6839504273123618
+          ]
+        ]
+      },
+      {
+        "trial": 21,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 1.521697180013058e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.7658939498431662,
+            0.6344413920428714,
+            -0.10435793049087003
+          ],
+          [
+            -0.6157153262251149,
+            -0.3584578853674292,
+            0.7017140311190958
+          ],
+          [
+            0.11666158227037035,
+            0.5466339954127128,
+            0.8292052522031611
+          ],
+          [
+            0.3467944732025369,
+            0.847675335936009,
+            -0.4014724376616025
+          ],
+          [
+            0.2254868234648759,
+            -0.961991445966967,
+            0.15403944407230236
+          ],
+          [
+            0.4237455398412181,
+            -0.21908394210248194,
+            -0.8788867639107503
+          ],
+          [
+            0.9578637312648166,
+            -0.05689956169551303,
+            0.2815306594428068
+          ],
+          [
+            -0.6889428764903076,
+            -0.4323178886054111,
+            -0.5817722545163356
+          ]
+        ]
+      },
+      {
+        "trial": 22,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 6.972336412160603e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.6445303641281102,
+            0.7641001154632245,
+            -0.02704853537574327
+          ],
+          [
+            0.3336444711824862,
+            -0.237473582806107,
+            -0.9122980128875597
+          ],
+          [
+            0.9450917963460962,
+            -0.24078572633584122,
+            0.22096092521581825
+          ],
+          [
+            0.05746815063429259,
+            -0.9940603649745178,
+            0.09241970812225417
+          ],
+          [
+            0.25341773886218893,
+            0.4674338383494809,
+            0.8469268306033567
+          ],
+          [
+            0.4722017549694446,
+            0.7959588712534169,
+            -0.37878091012716447
+          ],
+          [
+            -0.6342059024638388,
+            -0.28584080810325097,
+            0.7183856246493998
+          ],
+          [
+            -0.7830876461140274,
+            -0.26933234388868915,
+            -0.5605656313394684
+          ]
+        ]
+      },
+      {
+        "trial": 23,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 4.717301366727359e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            0.32945201381072153,
+            -0.9147053770305394,
+            -0.2340415429522689
+          ],
+          [
+            0.6702225579167173,
+            0.706245697979547,
+            -0.22807616478921072
+          ],
+          [
+            0.8334282850955329,
+            -0.1771370576868163,
+            0.5234689641199146
+          ],
+          [
+            0.16624628850965695,
+            -0.03132262987677126,
+            -0.9855866600225301
+          ],
+          [
+            -0.6152411635423016,
+            0.7288757764474278,
+            -0.30036380139969276
+          ],
+          [
+            -0.14347225685940657,
+            0.6257694027624596,
+            0.7666996583265072
+          ],
+          [
+            -0.8562023331152585,
+            -0.41730972019847196,
+            -0.3045819466019956
+          ],
+          [
+            -0.38443341496498606,
+            -0.5204160911855463,
+            0.7624815023943309
+          ]
+        ]
+      },
+      {
+        "trial": 24,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 8.385217883590851e-09,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.8401713983737892,
+            0.42664331979439307,
+            0.33479471177043824
+          ],
+          [
+            0.6644317680986852,
+            -0.7204584344224976,
+            0.19867075731153433
+          ],
+          [
+            -0.10974695410513764,
+            0.8810812225416316,
+            -0.4600559589323768
+          ],
+          [
+            -0.4989561972468168,
+            -0.8144210317247359,
+            0.2962449937356113
+          ],
+          [
+            0.8051076478560062,
+            0.5595264955704193,
+            0.1968039027012798
+          ],
+          [
+            -0.6293680176545127,
+            -0.265711383469931,
+            -0.730269374305211
+          ],
+          [
+            0.5340199501423292,
+            -0.17174878872135374,
+            -0.8278436122980789
+          ],
+          [
+            0.0746832032010037,
+            0.10508860124883863,
+            0.9916545795019556
+          ]
+        ]
+      },
+      {
+        "trial": 25,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 2.46453980787975e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.09430510896743378,
+            -0.3635063528179655,
+            0.9268061706115368
+          ],
+          [
+            0.8249195184629956,
+            -0.5632557319174145,
+            0.04744226513307755
+          ],
+          [
+            0.2659169643315431,
+            -0.24667440527413576,
+            -0.9319012318177009
+          ],
+          [
+            -0.5685473534615285,
+            0.6305518336138768,
+            0.528354324292013
+          ],
+          [
+            0.7132422443978567,
+            0.5259735120730775,
+            0.46328972080526504
+          ],
+          [
+            -0.41061183480939717,
+            -0.9098509303100001,
+            -0.059742829933705124
+          ],
+          [
+            0.1542396654616489,
+            0.8425548264790741,
+            -0.5160537665545094
+          ],
+          [
+            -0.8848541082098943,
+            0.08420724661301582,
+            -0.4581946603812919
+          ]
+        ]
+      },
+      {
+        "trial": 26,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 8.798921365951363e-09,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.020456044445582553,
+            -0.7794758523931985,
+            0.6260981918050371
+          ],
+          [
+            0.5125069370072618,
+            0.8274767591651235,
+            -0.22938799567766982
+          ],
+          [
+            0.2543200928833197,
+            0.4581641633549445,
+            0.8517082186835369
+          ],
+          [
+            0.3446752868695219,
+            -0.25718897165144006,
+            -0.9028027356417833
+          ],
+          [
+            -0.6093765988753261,
+            -0.694385099548349,
+            -0.38273946003563475
+          ],
+          [
+            0.9335958396528268,
+            -0.34227971634996684,
+            0.10603491858024643
+          ],
+          [
+            -0.8367261781596896,
+            0.2091880626733209,
+            0.506092538195597
+          ],
+          [
+            -0.5785393330800784,
+            0.5785006597757951,
+            -0.5750036753954082
+          ]
+        ]
+      },
+      {
+        "trial": 27,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 6.802873433237627e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.42692409997654135,
+            0.7595662061413639,
+            -0.4907086623927025
+          ],
+          [
+            -0.5455682588536113,
+            0.5275566939649097,
+            0.6511829309681373
+          ],
+          [
+            0.46989989679790073,
+            -0.23895881155096443,
+            0.8497604211608546
+          ],
+          [
+            -0.5620197172246203,
+            -0.37775007739296174,
+            -0.7358251942413833
+          ],
+          [
+            0.6376880812953387,
+            0.08915219259250753,
+            -0.7651181591949169
+          ],
+          [
+            -0.6806638852573133,
+            -0.6097595874094877,
+            0.40606639958094387
+          ],
+          [
+            0.45826696111293364,
+            -0.879107363320301,
+            -0.13100242787194924
+          ],
+          [
+            0.6493210231665315,
+            0.7293007441034097,
+            0.21564469278000228
+          ]
+        ]
+      },
+      {
+        "trial": 28,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 2.355007041866878e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.23687250002335197,
+            -0.08087779326284018,
+            -0.9681684777401195
+          ],
+          [
+            -0.5957212998638599,
+            -0.5592399534304908,
+            0.5765126255127251
+          ],
+          [
+            -0.9409462444658939,
+            0.3163363594153972,
+            -0.12062948535636987
+          ],
+          [
+            0.6604077992551101,
+            -0.2990670742803803,
+            0.6887818404722905
+          ],
+          [
+            0.9141522191006612,
+            0.03918605296721526,
+            -0.4034726428968725
+          ],
+          [
+            0.17218600103297144,
+            0.9391848211545673,
+            -0.29712598802719553
+          ],
+          [
+            -0.08155841989423006,
+            0.6009316942591986,
+            0.7951284946341225
+          ],
+          [
+            0.10835244499984814,
+            -0.9564541056123471,
+            -0.27102636683511055
+          ]
+        ]
+      },
+      {
+        "trial": 29,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 8.472535827583057e-09,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully.",
+        "coordinates": [
+          [
+            -0.8329053053046601,
+            -0.5533800761821233,
+            -0.006264477633339457
+          ],
+          [
+            0.9938916898166085,
+            -0.05298831298799706,
+            0.09680675389750824
+          ],
+          [
+            0.34708952370127194,
+            0.9195379220819666,
+            0.1843335899666777
+          ],
+          [
+            0.1789713491065211,
+            -0.8309949251391978,
+            -0.5267036079161512
+          ],
+          [
+            -0.43711800718870164,
+            0.3396183636577154,
+            0.8328188367573311
+          ],
+          [
+            0.2761316236224934,
+            0.2667500249993722,
+            -0.9233611160312307
+          ],
+          [
+            0.2096841637076479,
+            -0.6329078672929727,
+            0.7452920119046528
+          ],
+          [
+            -0.7357450367335908,
+            0.5443648700543227,
+            -0.4029219889415661
+          ]
+        ]
+      },
+      {
+        "trial": 30,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 1.1271129775691078e-08,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.9311391172496551,
+            -0.299674078955559,
+            0.20778688777126975
+          ],
+          [
+            -0.008236435775345755,
+            -0.381641845028592,
+            0.92427358679608
+          ],
+          [
+            0.3134712540534961,
+            0.7066082653504548,
+            0.6343820081154175
+          ],
+          [
+            -0.34375681245621237,
+            -0.1455071314339995,
+            -0.9277170520108992
+          ],
+          [
+            -0.6094314286808065,
+            0.7885760288982298,
+            -0.08210469160266948
+          ],
+          [
+            0.9614246760620176,
+            -0.2614270549761867,
+            0.08554815711353646
+          ],
+          [
+            0.5363156199842364,
+            0.5660419410229719,
+            -0.6260687476338925
+          ],
+          [
+            0.0813522417718861,
+            -0.9729761242051819,
+            -0.2161001492025191
+          ]
+        ]
+      },
+      {
+        "trial": 31,
+        "energy": 19.67528786123276,
+        "gap": 0.0,
+        "gradient_norm": 3.1870548498454003e-09,
+        "optimizer_success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "coordinates": [
+          [
+            -0.7432116483156068,
+            -0.5320895168888303,
+            0.40560718906968374
+          ],
+          [
+            -0.29663606035983775,
+            0.4614120949886708,
+            0.836125544575909
+          ],
+          [
+            0.8338743853844418,
+            0.5056939643214217,
+            0.22119476451445308
+          ],
+          [
+            -0.29298387159513894,
+            0.9257250444068796,
+            -0.239151820279512
+          ],
+          [
+            0.20232113270839366,
+            -0.8993294914710477,
+            -0.3876501322455849
+          ],
+          [
+            0.5206802478601971,
+            0.13150107102482628,
+            -0.8435636003334707
+          ],
+          [
+            0.5155152720749018,
+            -0.5251365978596874,
+            0.6771082320027523
+          ],
+          [
+            -0.7395594577578284,
+            -0.06777656880774614,
+            -0.6696701764014847
+          ]
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "No explicit SDP dual certificate (lambda, mu_1, mu_3, Z_j) is present in the supplied manuscript or this program.",
+    "The conditional global bound in the manuscript is not independently certified here.",
+    "Floating-point PSD tests, high-precision grids and random optimization are numerical evidence, not exact or interval certificates.",
+    "M,D,T are checked on selected compressed monomial bases; F_ell uses all stated basis monomials.",
+    "External references, Lean proofs and bibliography claims are not audited."
+  ]
+}

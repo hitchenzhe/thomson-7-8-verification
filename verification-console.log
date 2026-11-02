@@ -1,0 +1,109 @@
+[INFO] No manuscript source supplied: checking transcribed formulas; source-version guard skipped.
+[PASS] N7 basic contact identities
+[PASS] N7 S intersect (-S) is {0}
+[PASS] N7 exhaustive integer row multiplicities
+[PASS] N7 3x3 Gram determinant factorization
+[PASS] N7 PSD forces mutual neighbor contact a
+[PASS] N7 vector recurrence has zero squared residual
+[PASS] N7 recurrence closes only at length 5 among 3..7
+[PASS] N7 full degree-0/2 graph enumeration leaves C5 plus two poles
+[PASS] N7 recovered Gram matrix is PSD, rank 3
+[PASS] N7 candidate energy equals paper's radical expression
+[PASS] N7 pair contact multiplicities
+[PASS] Coulomb derivative formula order 1
+[PASS] Coulomb derivative formula order 2
+[PASS] Coulomb derivative formula order 3
+[PASS] Coulomb derivative formula order 4
+[PASS] Coulomb derivative formula order 5
+[PASS] Coulomb derivative formula order 6
+[PASS] Coulomb derivative formula order 7
+[PASS] Coulomb derivative formula order 8
+[PASS] Coulomb derivative formula order 9
+[PASS] N7 exact Hermite interpolation: all eight value/derivative equations
+[PASS] N7 omega has rational coefficients and endpoint second derivative 1/8
+[PASS] N7 enhanced polynomial matches f''(-1) exactly
+[PASS] N7 gamma has a strictly positive rational enclosure
+[PASS] N7 90-digit minorant grid and near-contact checks
+[PASS] N7 increasing gamma violates the endpoint bound
+[PASS] N7 exact ninth-order Hermite remainder product
+[PASS] N8 elimination rational-function identity
+[PASS] N8 elimination degree and leading coefficient
+[PASS] N8 polynomial reduction modulo 23
+[PASS] N8 all 23 residue values match the manuscript and are nonzero
+[PASS] N8 unique integer row counts
+[PASS] N8 sixth moment polynomial
+[PASS] N8 sixth moment derivative rational bound
+[PASS] N8 weighted contact moment 1
+[PASS] N8 weighted contact moment 3
+[PASS] N8 algebraic inequalities factorizations
+[PASS] N8 six rational endpoint comparisons
+[PASS] N8 stationary parameter interval
+[PASS] N8 f^(8)(-1)/8! equals 6435/16777216
+[PASS] N8 enhanced Hermite minorant sampled on 2000 points
+[PASS] N8 circulant Gram eigenvalue identity
+[PASS] N8 explicit coordinates, circulant Gram and rank
+[PASS] N7 candidate all sampled 4x4 Gram determinants vanish
+[PASS] N7 candidate edge moment normalization r=0
+[PASS] N7 candidate edge moment normalization r=1
+[PASS] N7 candidate edge moment normalization r=2
+[PASS] N7 candidate edge moment normalization r=3
+[PASS] N7 candidate edge moment normalization r=4
+[PASS] N7 candidate edge moment normalization r=5
+[PASS] N7 candidate edge moment normalization r=6
+[PASS] N7 candidate edge moment normalization r=7
+[PASS] N7 candidate edge moment normalization r=8
+[PASS] N7 candidate F_0: full matrix expansion and PSD
+[PASS] N7 candidate F_1: full matrix expansion and PSD
+[PASS] N7 candidate F_2: full matrix expansion and PSD
+[PASS] N7 candidate F_3: full matrix expansion and PSD
+[PASS] N7 candidate F_4: full matrix expansion and PSD
+[PASS] N7 candidate F_5: full matrix expansion and PSD
+[PASS] N7 candidate F_6: full matrix expansion and PSD
+[PASS] N7 candidate F_7: full matrix expansion and PSD
+[PASS] N7 candidate F_8: full matrix expansion and PSD
+[PASS] N7 candidate selected monomial compressions of M,D,T are PSD
+[PASS] N7 random configuration all sampled 4x4 Gram determinants vanish
+[PASS] N7 random configuration edge moment normalization r=0
+[PASS] N7 random configuration edge moment normalization r=1
+[PASS] N7 random configuration edge moment normalization r=2
+[PASS] N7 random configuration edge moment normalization r=3
+[PASS] N7 random configuration edge moment normalization r=4
+[PASS] N7 random configuration edge moment normalization r=5
+[PASS] N7 random configuration edge moment normalization r=6
+[PASS] N7 random configuration edge moment normalization r=7
+[PASS] N7 random configuration edge moment normalization r=8
+[PASS] N7 random configuration F_0: full matrix expansion and PSD
+[PASS] N7 random configuration F_1: full matrix expansion and PSD
+[PASS] N7 random configuration F_2: full matrix expansion and PSD
+[PASS] N7 random configuration F_3: full matrix expansion and PSD
+[PASS] N7 random configuration F_4: full matrix expansion and PSD
+[PASS] N7 random configuration F_5: full matrix expansion and PSD
+[PASS] N7 random configuration F_6: full matrix expansion and PSD
+[PASS] N7 random configuration F_7: full matrix expansion and PSD
+[PASS] N7 random configuration F_8: full matrix expansion and PSD
+[PASS] N7 random configuration selected monomial compressions of M,D,T are PSD
+[PASS] N8 candidate all sampled 4x4 Gram determinants vanish
+[PASS] N8 candidate edge moment normalization r=0
+[PASS] N8 candidate edge moment normalization r=1
+[PASS] N8 candidate edge moment normalization r=2
+[PASS] N8 candidate edge moment normalization r=3
+[PASS] N8 candidate edge moment normalization r=4
+[PASS] N8 candidate edge moment normalization r=5
+[PASS] N8 candidate edge moment normalization r=6
+[PASS] N8 candidate edge moment normalization r=7
+[PASS] N8 candidate edge moment normalization r=8
+[PASS] N8 candidate F_0: full matrix expansion and PSD
+[PASS] N8 candidate F_1: full matrix expansion and PSD
+[PASS] N8 candidate F_2: full matrix expansion and PSD
+[PASS] N8 candidate F_3: full matrix expansion and PSD
+[PASS] N8 candidate F_4: full matrix expansion and PSD
+[PASS] N8 candidate F_5: full matrix expansion and PSD
+[PASS] N8 candidate F_6: full matrix expansion and PSD
+[PASS] N8 candidate F_7: full matrix expansion and PSD
+[PASS] N8 candidate F_8: full matrix expansion and PSD
+[PASS] N8 candidate selected monomial compressions of M,D,T are PSD
+[PASS] N7 optimization gradient independent finite difference
+[PASS] N7 seeded multistart found no energy below candidate
+[PASS] N8 optimization gradient independent finite difference
+[PASS] N8 seeded multistart found no energy below candidate
+Saved verification-results.json; status=passed; checks=107
